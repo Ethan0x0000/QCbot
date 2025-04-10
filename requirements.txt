@@ -1,0 +1,4 @@
+wcferry
+redis
+python-dotenv
+requests
