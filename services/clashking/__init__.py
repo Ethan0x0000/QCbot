@@ -1,5 +1,6 @@
 import requests
 from typing import Dict, Any, Optional, Union
+from urllib.parse import urlencode
 import json
 import logging
 
@@ -35,16 +36,29 @@ class ClashKing:
         
         Args:
             mode: API 请求模式
-            params: 请求参数，将直接拼接到URL中
+            params: 请求参数，将根据情况插入到URL中
             
         Returns:
             完整的请求URL
         """
-        url = f"{self.BASE_URL}/{mode.lstrip('/')}"
-        if params:
-            query = '&'.join(f"{k}={v}" for k, v in params.items())
-            url = f"{url}?{query}"
-        return url
+        match mode:
+            case "player_stats":
+                return f"{self.BASE_URL}/player/{urlencode(params['tag'])}/stats"
+            case "player_lengends":
+                return f"{self.BASE_URL}/player/{urlencode(params['tag'])}/legends"
+            case "player_search":
+                return f"{self.BASE_URL}/player/full-search/{urlencode(params['name'])}?limit=25"
+            case "clan_basic":
+                return f"{self.BASE_URL}/clan/{urlencode(params['tag'])}"
+            case "clan_war":
+                return f"{self.BASE_URL}/timeline/{urlencode(params['tag'])}"
+            case "clan_leagues":
+                return f"{self.BASE_URL}/cwl/{urlencode(params['tag'])}/{params['season']}"
+            case "capital_logs":
+                return f"{self.BASE_URL}/capital/{urlencode(params['tag'])}?limit=1"
+            case _:
+                raise ValueError("Invalid request mode.")
+
     
     def _make_request(self, mode: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """
