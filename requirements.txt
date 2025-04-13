@@ -1,3 +1,7 @@
 wcferry
 python-dotenv
 requests
+playwright
+matplotlib
+numpy
+pillow

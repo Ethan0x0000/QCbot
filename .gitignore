@@ -1,3 +1,4 @@
 /test
 /.history
 */__pycache__
+*/*/__pycache__

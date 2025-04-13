@@ -40,7 +40,7 @@ class PicMaker:
             self.data = data
         
         # 缓存目录
-        self.cache_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'storage', 'images')
+        self.cache_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'storage', 'cache')
         os.makedirs(self.cache_dir, exist_ok=True)
         
         self.logger.info(f"PicMaker初始化完成: 模式={mode}")
@@ -61,8 +61,8 @@ class PicMaker:
         
         try:
             # 根据不同模式生成图片
-            if self.mode == "simple":
-                self._generate_simple_image(filepath)
+            if self.mode == "player_stats":
+                self._generate_player_stats(filepath)
             elif self.mode == "chart":
                 self._generate_chart_image(filepath)
             elif self.mode == "complex":
@@ -78,17 +78,16 @@ class PicMaker:
             self.logger.error(f"图片生成失败: {str(e)}")
             raise RuntimeError(f"图片生成失败: {str(e)}")
     
-    def _generate_simple_image(self, filepath: str) -> None:
+    def _generate_player_stats(self, filepath: str) -> None:
         """
-        生成简单图片
+        生成玩家统计图片
         
         Args:
             filepath: 图片保存路径
         """
-        # 这里实现简单图片生成逻辑
-        # 示例代码，实际应用中需要替换为真实的图片生成代码
-        with open(filepath, 'w') as f:
-            f.write("Simple image placeholder")
+        from .player_stats import generate_player_stats_image
+        # 调用player_stats.py中的函数生成图片
+        generate_player_stats_image(self.data, filepath)
     
     def _generate_chart_image(self, filepath: str) -> None:
         """
