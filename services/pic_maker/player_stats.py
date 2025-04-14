@@ -1,9 +1,14 @@
-import json
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import base64
+import ssl
 from urllib.request import urlopen
 from io import BytesIO
+
+# 创建不验证SSL的context
+ssl_context = ssl.create_default_context()
+ssl_context.check_hostname = False
+ssl_context.verify_mode = ssl.CERT_NONE
 
 # 定义图标路径 - 使用项目相对路径
 PIC_SRC_DIR = Path(__file__).parent.parent.parent / "storage/pic_src"
@@ -452,7 +457,7 @@ html_template = '''<!DOCTYPE html>
         <div class="section">
             <h2 class="section-title">
                 <span>英雄</span>
-                <span class="completion">
+                <span class="completion">完成度：
                     {heroes_completion}% | 
                     {equipments_completion}%
                 </span>
@@ -465,7 +470,7 @@ html_template = '''<!DOCTYPE html>
         <div class="section">
             <h2 class="section-title">
                 <span>战宠</span>
-                <span class="completion">
+                <span class="completion">完成度：
                     {pets_completion}%
                 </span>
             </h2>
@@ -477,7 +482,7 @@ html_template = '''<!DOCTYPE html>
         <div class="section">
             <h2 class="section-title">
                 <span>部队</span>
-                <span class="completion">
+                <span class="completion">完成度：
                     {troops_completion}%
                 </span>
             </h2>
@@ -489,7 +494,7 @@ html_template = '''<!DOCTYPE html>
         <div class="section">
             <h2 class="section-title">
                 <span>法术</span>
-                <span class="completion">
+                <span class="completion">完成度：
                     {spells_completion}%
                 </span>
             </h2>
@@ -501,7 +506,7 @@ html_template = '''<!DOCTYPE html>
         <div class="section">
             <h2 class="section-title">
                 <span>攻城器</span>
-                <span class="completion">
+                <span class="completion">完成度：
                     {machines_completion}%
                 </span>
             </h2>
@@ -539,20 +544,26 @@ def generate_player_stats(data):
     # 生成标签HTML
     labels_html = ""
     for label in labels:
-        response = urlopen(label['iconUrls']['small'])
+        response = urlopen(label['iconUrls']['small'], context=ssl_context)
         img_data = response.read()
         img_base64 = base64.b64encode(img_data).decode('utf-8')
         labels_html += f'<img class="label" src="data:image/png;base64,{img_base64}" alt="Label">'
 
     # 获取部落徽章
-    response = urlopen(clan['badgeUrls']['small'])
-    clan_badge_data = response.read()
-    clan_badge = f"data:image/png;base64,{base64.b64encode(clan_badge_data).decode('utf-8')}"
+    if 'clan' in data:
+        response = urlopen(clan['badgeUrls']['small'], context=ssl_context)
+        clan_badge_data = response.read()
+        clan_badge = f"data:image/png;base64,{base64.b64encode(clan_badge_data).decode('utf-8')}"
+    else:
+        clan_badge = PIC_SRC_DIR / "default/noClan.png"
 
     # 获取奖杯图标
-    response = urlopen(data['league']['iconUrls']['small'])
-    trophy_icon_data = response.read()
-    trophy_icon = f"data:image/png;base64,{base64.b64encode(trophy_icon_data).decode('utf-8')}"
+    if 'league' in data:
+        response = urlopen(data['league']['iconUrls']['small'], context=ssl_context)
+        trophy_icon_data = response.read()
+        trophy_icon = f"data:image/png;base64,{base64.b64encode(trophy_icon_data).decode('utf-8')}"
+    else:
+        trophy_icon = PIC_SRC_DIR / "default/noLeague.png"
 
     # 生成英雄HTML
     heroes_html = ""
@@ -685,12 +696,12 @@ def generate_player_stats(data):
             </div>
             """
 
-    # 移除部落名称的编码处理，因为JSON已经正确编码
-    clan_name = clan['name']
+    # 判断部落名是否存在
+    clan_name = clan['name'] or '无部落'
 
     # 提取历史最高奖杯数和部落职位
-    best_trophies = data['bestTrophies']
-    clan_role = role_map.get(data['role'], data['role'])
+    best_trophies = data['bestTrophies'] or None
+    clan_role = role_map.get(data['role'], data['role']) or None
 
     # 计算完成度
     heroes_completion = calculate_completion([h for h in heroes if h['village'] == 'home'])

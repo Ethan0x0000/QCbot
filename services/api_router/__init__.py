@@ -36,12 +36,6 @@ class APIRouter:
         self.logger = logging.getLogger('APIRouter')
         self.logger.setLevel(logging.INFO)
         
-        # 添加日志处理器（如果尚未添加）
-        if not self.logger.handlers:
-            handler = logging.StreamHandler()
-            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-            handler.setFormatter(formatter)
-            self.logger.addHandler(handler)
     
     def _build_url(self, mode:str, params: Optional[Dict[str, Any]] = None) -> tuple[str, str] :
         """
@@ -59,7 +53,7 @@ class APIRouter:
 
         match mode:
             case "player_stats":
-                return f"{self.BASE_URL_COC}/player/{quote(params['tag'])}", 'coc'
+                return f"{self.BASE_URL_COC}/players/{quote(params['tag'])}", 'coc'
             case "player_lengends":
                 return f"{self.BASE_URL_CK}/player/{quote(params['tag'])}/legends", 'ck'
             case "player_search":
@@ -106,7 +100,7 @@ class APIRouter:
                     'Connection': 'keep-alive',
                     'Authorization': f'Bearer {self.token}'
                 }
-            response = self.session.get(url, timeout=self.timeout, headers=headers, verify=False)
+            response = self.session.get(url, timeout=self.timeout, headers=headers, verify=True)
             response.raise_for_status()
 
             

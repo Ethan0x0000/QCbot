@@ -1,9 +1,7 @@
 import re  # 导入正则表达式模块
 from wcferry import Wcf, WxMsg
 from typing import Optional
-from services import APIRouter
-from services import SignSystem
-from services import PicMaker
+from services import APIRouter, SignSystem, PicMaker
 import logging
 
 logging.basicConfig(
@@ -32,25 +30,23 @@ class MsgHandler:
                 ans = "❌ 签到失败，请稍后重试"
             wcf.send_text(f"@{wcf.get_alias_in_chatroom(msg.sender, msg.roomid)}\n{ans}",msg.roomid, msg.sender)
             logger.info(f"触发签到事件")
-        elif content.startwith("村庄"):
+        elif content.startswith("村庄"):
             #从content中提取出村庄标签，以#开头，为数字或字母
-            match = re.search(r'#([a-zA-Z0-9]+)', content)  # 使用正则表达式匹配
+            match = re.search(r'(#[a-zA-Z0-9]+)', content)  # 使用正则表达式匹配
             if match:
+                wcf.send_text(f"@{wcf.get_alias_in_chatroom(msg.sender, msg.roomid)} 正在请求数据并生成图片，大概需要5-30秒，请耐心等待...",msg.roomid, msg.sender)
                 self.params['tag'] = match.group(1)  # 提取匹配的村庄标签
                 res = self._ck.get_data('player_stats', self.params)
-                json_data = res['content']
-                if json_data:
-                    pm = PicMaker("player_stats", json_data)
+                if res:
+                    pm = PicMaker("player_stats", res)
                     img_path = pm.generate()
                     wcf.send_image(img_path, msg.roomid)
                 else:
                     wcf.send_text(f"@{wcf.get_alias_in_chatroom(msg.sender, msg.roomid)} ❌ 请求失败，请稍后再试",msg.roomid, msg.sender)  
-                    
-                logger.info(f"触发查询村庄事件")
             else:      
                 wcf.send_text(f"@{wcf.get_alias_in_chatroom(msg.sender, msg.roomid)} ❌ 请提供村庄标签",msg.roomid, msg.sender)
             logger.info(f"触发查询村庄事件")
-        elif content.startwith("玩家"):
+        elif content.startswith("玩家"):
             pass
 
     

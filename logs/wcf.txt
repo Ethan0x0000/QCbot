@@ -1161,3 +1161,714 @@
 [2025-04-11 00:10:57.606] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
 [2025-04-11 00:10:57.606] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x20[Functions_FUNC_SEND_TXT] length: 128
 [2025-04-11 00:10:57.606] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:40:58.744] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 09:40:58.746] [error] [WCF] [spy.cpp::27::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.51
+[2025-04-13 09:41:00.533] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 09:51:09.339] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 09:51:09.340] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 09:51:09.341] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 09:51:09.341] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 09:51:09.345] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 09:51:09.355] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 09:51:09.355] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:51:09.356] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 09:51:09.356] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 09:51:09.358] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 09:51:09.358] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:51:09.359] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 09:51:09.397] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:51:29.658] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 签到
+[2025-04-13 09:51:29.658] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 签到
+[2025-04-13 09:51:29.658] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 457
+[2025-04-13 09:51:29.659] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 09:51:29.661] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 450
+[2025-04-13 09:51:29.661] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 09:51:29.661] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 09:51:29.662] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 09:51:29.662] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 09:51:29.668] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 09:51:29.668] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 09:51:29.669] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 09:51:29.669] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 09:51:29.669] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x20[Functions_FUNC_SEND_TXT] length: 149
+[2025-04-13 09:51:29.670] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:51:36.390] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 09:51:36.390] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 09:51:36.390] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 09:51:36.391] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 09:51:36.393] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 450
+[2025-04-13 09:51:36.394] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 09:51:36.394] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 09:51:36.394] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 09:51:36.395] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 09:52:17.712] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 09:52:18.705] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 09:52:18.706] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:52:18.709] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 09:52:18.710] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 09:52:18.710] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 09:52:18.719] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 09:52:18.719] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 09:52:18.719] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 09:52:18.719] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 09:52:18.719] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 09:52:18.719] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 09:52:22.282] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 09:52:22.283] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 09:52:22.283] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 09:52:22.283] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 09:52:22.286] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 09:52:22.293] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 09:52:22.293] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:52:22.293] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 09:52:22.293] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 09:52:22.295] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 09:52:22.295] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:52:22.295] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 09:52:22.333] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:52:28.677] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 09:52:28.677] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 09:52:28.677] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 09:52:28.678] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 09:52:28.680] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 450
+[2025-04-13 09:52:28.681] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 09:52:28.681] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 09:52:28.681] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 09:52:28.682] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 09:54:57.794] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 09:54:58.789] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 09:54:58.791] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:54:58.794] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 09:54:58.794] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 09:54:58.794] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 09:54:58.804] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 09:54:58.804] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 09:54:58.804] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 09:54:58.804] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 09:54:58.804] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 09:54:58.804] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 09:55:02.503] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 09:55:02.504] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 09:55:02.504] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 09:55:02.504] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 09:55:02.506] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 09:55:02.515] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 09:55:02.515] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:55:02.515] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 09:55:02.515] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 09:55:02.517] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 09:55:02.517] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:55:02.517] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 09:55:02.554] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 09:55:10.073] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 09:55:10.073] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 09:55:10.073] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 09:55:10.074] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 09:55:10.075] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 450
+[2025-04-13 09:55:10.076] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 09:55:10.076] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 09:55:10.076] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 09:55:10.076] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:06:34.114] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:06:35.147] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:06:35.148] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:06:35.151] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:06:35.151] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:06:35.151] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:06:35.160] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:06:35.160] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:06:35.160] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:06:35.160] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:06:35.160] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:06:35.160] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:07:07.887] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:07:07.887] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:07:07.887] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:07:07.887] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:07:07.889] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:07:07.894] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:07:07.894] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:07:07.895] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:07:07.895] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:07:07.897] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:07:07.897] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:07:07.899] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:07:07.944] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:07:32.950] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:07:32.951] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:07:32.951] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:07:32.951] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:07:32.954] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 450
+[2025-04-13 10:07:32.954] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:07:32.955] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:07:32.955] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:07:32.955] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:17:22.461] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:17:22.461] [warning] [WCF] [rpc_server.cpp::77::RpcServer::start] RPC 服务已在运行
+[2025-04-13 10:17:38.519] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:17:38.572] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:17:38.572] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:17:38.601] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:17:38.601] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:17:38.601] [debug] [WCF] [rpc_server.cpp::119::RpcServer::stop] 等待消息线程关闭
+[2025-04-13 10:17:38.983] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:17:38.984] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:17:38.984] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:17:38.984] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:17:38.984] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:19:21.759] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:19:21.760] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:19:21.760] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:19:21.760] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:19:21.763] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:19:21.771] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:19:21.772] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:19:22.772] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:19:22.772] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:19:23.779] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:19:23.779] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:19:24.780] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:19:24.780] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:19:24.781] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:19:24.781] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:19:24.782] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:19:24.782] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:19:24.783] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:19:24.872] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:19:34.265] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:19:34.266] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:19:34.266] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:19:46.487] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:19:46.487] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:19:46.487] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:20:00.582] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:20:00.582] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:20:00.582] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:20:17.264] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:20:17.738] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:20:17.739] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:17.742] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:20:17.743] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:20:17.743] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:20:17.752] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:20:17.752] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:20:17.752] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:20:17.752] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:20:17.752] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:20:17.752] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:20:22.618] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:20:22.618] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:20:22.618] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:20:22.618] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:20:22.621] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:20:22.624] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:20:22.624] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:22.625] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:20:22.625] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:20:22.626] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:20:22.626] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:22.627] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:20:22.671] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:26.506] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:20:26.506] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:20:26.506] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:20:30.580] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 签到
+[2025-04-13 10:20:30.580] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 签到
+[2025-04-13 10:20:30.580] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 457
+[2025-04-13 10:20:44.870] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:20:45.714] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:20:45.715] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:45.718] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:20:45.718] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:20:45.718] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:20:45.727] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:20:45.727] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:20:45.727] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:20:45.727] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:20:45.727] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:20:45.727] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:20:49.373] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:20:49.373] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:20:49.373] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:20:49.373] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:20:49.376] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:20:49.384] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:20:49.384] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:49.384] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:20:49.385] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:20:49.386] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:20:49.386] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:49.387] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:20:49.432] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:20:52.675] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 1
+[2025-04-13 10:20:52.675] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 1
+[2025-04-13 10:20:52.676] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 452
+[2025-04-13 10:21:05.512] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 1
+[2025-04-13 10:21:05.512] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 1
+[2025-04-13 10:21:05.512] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 452
+[2025-04-13 10:21:11.597] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:21:12.573] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:21:12.575] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:21:12.579] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:21:12.579] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:21:12.579] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:21:12.589] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:21:12.589] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:21:12.589] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:21:12.589] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:21:12.589] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:21:12.589] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:21:30.023] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:21:30.024] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:21:30.024] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:21:30.024] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:21:30.026] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:21:30.034] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:21:30.035] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:21:30.035] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:21:30.035] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:21:30.036] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:21:30.036] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:21:30.037] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:21:30.084] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:21:32.773] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 1
+[2025-04-13 10:21:32.773] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 1
+[2025-04-13 10:21:32.773] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 452
+[2025-04-13 10:21:32.774] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:21:32.777] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:21:32.777] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:21:32.777] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:21:32.778] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:21:32.778] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:21:56.976] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:21:58.004] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:21:58.006] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:21:58.009] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:21:58.009] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:21:58.009] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:21:58.018] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:21:58.018] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:21:58.018] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:21:58.018] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:21:58.018] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:21:58.018] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:22:01.824] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:22:01.824] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:22:01.824] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:22:01.824] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:22:01.826] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:22:01.834] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:22:01.834] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:22:01.835] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:22:01.835] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:22:01.836] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:22:01.836] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:22:01.837] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:22:01.881] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:22:06.483] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:22:06.483] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:22:06.484] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:22:06.484] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:22:06.487] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:22:06.488] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:22:06.488] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:22:06.488] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:22:06.489] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:23:04.920] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:23:05.947] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:23:05.948] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:23:05.951] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:23:05.951] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:23:05.952] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:23:05.961] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:23:05.961] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:23:05.961] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:23:05.961] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:23:05.961] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:23:05.961] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:23:10.883] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:23:10.884] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:23:10.884] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:23:10.884] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:23:10.886] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:23:10.895] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:23:10.895] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:23:10.896] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:23:10.896] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:23:10.897] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:23:10.897] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:23:10.897] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:23:10.941] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:23:14.696] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:23:14.696] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:23:14.696] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:23:14.697] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:23:14.699] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:23:14.700] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:23:14.700] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:23:14.700] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:23:14.701] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:25:30.166] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:25:30.749] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:25:30.751] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:25:30.754] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:25:30.754] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:25:30.754] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:25:30.763] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:25:30.764] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:25:30.764] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:25:30.764] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:25:30.764] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:25:30.764] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:27:50.118] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:27:50.119] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:27:50.119] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:27:50.119] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:27:50.122] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:27:50.125] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:27:50.125] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:27:50.126] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:27:50.126] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:27:50.127] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:27:50.127] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:27:50.128] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:27:50.175] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:27:54.167] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:27:54.167] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:27:54.167] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:27:54.168] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:27:54.171] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:27:54.171] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:27:54.171] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:27:54.172] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:27:54.172] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:29:41.336] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:29:41.988] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:29:41.989] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:29:41.992] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:29:41.993] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:29:41.993] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:29:42.002] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:29:42.002] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:29:42.002] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:29:42.002] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:29:42.002] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:29:42.002] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:29:46.323] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:29:46.324] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:29:46.324] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:29:46.324] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:29:46.326] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:29:46.335] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:29:46.335] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:29:46.336] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:29:46.336] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:29:46.337] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:29:46.337] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:29:46.338] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:29:46.386] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:29:52.610] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#2RJCRLQLP
+[2025-04-13 10:29:52.610] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#2RJCRLQLP
+[2025-04-13 10:29:52.610] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:29:52.610] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:29:52.613] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:29:52.614] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:29:52.614] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:29:52.614] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:29:52.614] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:30:00.029] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 107
+[2025-04-13 10:30:00.114] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:35:07.231] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:35:07.669] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:35:07.670] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:35:07.673] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:35:07.674] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:35:07.674] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:35:07.683] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:35:07.683] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:35:07.683] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:35:07.683] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:35:07.683] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:35:07.683] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 10:35:13.131] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 10:35:13.131] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 10:35:13.131] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 10:35:13.131] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 10:35:13.134] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 10:35:13.142] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:35:13.143] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:35:13.143] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 10:35:13.143] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 10:35:13.144] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 10:35:13.144] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:35:13.145] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 10:35:13.191] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:35:35.895] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#UQ9YLV0
+[2025-04-13 10:35:35.895] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#UQ9YLV0
+[2025-04-13 10:35:35.896] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 465
+[2025-04-13 10:35:35.896] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:35:35.899] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:35:35.900] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:35:35.900] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:35:35.900] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:35:35.900] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:35:41.189] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 107
+[2025-04-13 10:35:41.265] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:36:25.319] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#JVVVRU80
+[2025-04-13 10:36:25.319] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#JVVVRU80
+[2025-04-13 10:36:25.320] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 466
+[2025-04-13 10:36:25.320] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:36:25.323] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:36:25.324] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:36:25.324] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:36:25.325] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:36:25.325] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:36:28.628] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 107
+[2025-04-13 10:36:28.701] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:37:27.058] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#G9QUPUGL8
+[2025-04-13 10:37:27.058] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#G9QUPUGL8
+[2025-04-13 10:37:27.059] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 10:37:27.059] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 10:37:27.062] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 10:37:27.063] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 10:37:27.063] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 10:37:27.063] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 10:37:27.064] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 10:58:13.058] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 10:58:13.672] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 10:58:13.673] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 10:58:13.677] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 10:58:13.677] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 10:58:13.677] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 10:58:13.686] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 10:58:13.686] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 10:58:13.686] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 10:58:13.686] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 10:58:13.686] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 10:58:13.686] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 11:22:59.963] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 11:22:59.964] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 11:22:59.964] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 11:22:59.964] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 11:22:59.967] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 11:22:59.970] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:22:59.970] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:22:59.971] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 11:22:59.971] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 11:22:59.972] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:22:59.972] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:22:59.973] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 11:23:00.018] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:23:07.739] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#G9QUPUGL8
+[2025-04-13 11:23:07.739] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#G9QUPUGL8
+[2025-04-13 11:23:07.739] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 11:23:07.740] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 11:23:07.742] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 11:23:07.743] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:23:07.743] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:23:07.744] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:23:07.744] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:24:46.988] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 11:24:47.646] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 11:24:47.648] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:24:47.651] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 11:24:47.651] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 11:24:47.651] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 11:24:47.661] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 11:24:47.661] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 11:24:47.661] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 11:24:47.661] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 11:24:47.661] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 11:24:47.661] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 11:24:51.799] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 11:24:51.800] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 11:24:51.800] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 11:24:51.800] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 11:24:51.803] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 11:24:51.806] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:24:51.806] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:24:51.807] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 11:24:51.807] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 11:24:51.808] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:24:51.808] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:24:51.809] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 11:24:51.852] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:24:57.431] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#G9QUPUGL8
+[2025-04-13 11:24:57.431] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#G9QUPUGL8
+[2025-04-13 11:24:57.431] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 11:24:57.432] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 11:24:57.435] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 11:24:57.436] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:24:57.436] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:24:57.436] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:24:57.437] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:25:00.094] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 98
+[2025-04-13 11:25:00.114] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:26:45.019] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 11:26:45.351] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 11:26:45.352] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:26:45.355] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 11:26:45.356] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 11:26:45.356] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 11:26:45.365] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 11:26:45.365] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 11:26:45.365] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 11:26:45.365] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 11:26:45.365] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 11:26:45.365] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 11:28:08.980] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 11:28:08.981] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 11:28:08.981] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 11:28:08.981] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 11:28:08.984] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 11:28:08.991] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:28:08.991] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:28:08.992] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 11:28:08.992] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 11:28:08.993] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:28:08.993] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:28:08.994] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 11:28:09.041] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:28:16.255] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#G9QUPUGL8
+[2025-04-13 11:28:16.255] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#G9QUPUGL8
+[2025-04-13 11:28:16.255] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 547
+[2025-04-13 11:28:16.256] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 11:28:16.259] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 11:28:16.259] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:28:16.260] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:28:16.260] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:28:16.260] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:28:18.816] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 98
+[2025-04-13 11:28:18.836] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:29:10.209] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 11:29:10.700] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 11:29:10.701] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:29:10.704] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 11:29:10.705] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 11:29:10.705] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 11:29:10.714] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 11:29:10.714] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 11:29:10.714] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 11:29:10.714] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 11:29:10.714] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 11:29:10.714] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 11:29:14.623] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 11:29:14.623] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 11:29:14.623] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 11:29:14.624] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 11:29:14.626] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 11:29:14.634] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:29:14.634] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:29:14.634] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 11:29:14.634] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 11:29:14.636] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:29:14.636] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:29:14.636] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 11:29:14.679] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:29:22.150] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#UQ9YLV0
+[2025-04-13 11:29:22.150] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#UQ9YLV0
+[2025-04-13 11:29:22.150] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 545
+[2025-04-13 11:29:22.151] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 11:29:22.153] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 11:29:22.154] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:29:22.154] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:29:22.154] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:29:22.154] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:29:26.363] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 98
+[2025-04-13 11:29:26.430] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:32:25.709] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 11:32:26.529] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 11:32:26.531] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:32:26.535] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 11:32:26.535] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 11:32:26.535] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 11:32:26.544] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 11:32:26.544] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 11:32:26.544] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 11:32:26.544] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 11:32:26.544] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 11:32:26.544] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 11:32:41.162] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 11:32:41.162] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 11:32:41.162] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 11:32:41.162] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 11:32:41.164] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 11:32:41.168] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:32:41.168] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:32:41.168] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 11:32:41.168] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 11:32:41.170] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:32:41.170] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:32:41.170] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 11:32:41.216] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:32:45.235] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#UQ9YLV0
+[2025-04-13 11:32:45.235] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#UQ9YLV0
+[2025-04-13 11:32:45.235] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 545
+[2025-04-13 11:32:45.236] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 11:32:45.239] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 11:32:45.240] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:32:45.240] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:32:45.240] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:32:45.241] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:32:45.242] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:32:45.242] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:32:45.242] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:32:45.242] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:32:45.243] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x20[Functions_FUNC_SEND_TXT] length: 134
+[2025-04-13 11:32:45.243] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:32:48.978] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 98
+[2025-04-13 11:32:49.044] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:35:32.169] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 11:35:32.458] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 11:35:32.459] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:35:32.463] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 11:35:32.463] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 11:35:32.463] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 11:35:32.472] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 11:35:32.472] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 11:35:32.472] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 11:35:32.472] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 11:35:32.472] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 11:35:32.472] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源
+[2025-04-13 11:35:36.264] [debug] [WCF] [log.hpp::68::Log::InitLogger] InitLogger with debug level
+[2025-04-13 11:35:36.265] [info] [WCF] [spy.cpp::32::Spy::Init] WCF 支持版本: 3.9.12.17，当前版本: 3.9.12.17
+[2025-04-13 11:35:36.265] [debug] [WCF] [rpc_server.cpp::60::RpcServer::RpcServer] RpcServer 构造: 端口 10086
+[2025-04-13 11:35:36.265] [info] [WCF] [rpc_server.cpp::94::RpcServer::start] RPC 服务器成功启动，监听端口: 10086
+[2025-04-13 11:35:36.267] [info] [WCF] [rpc_server.cpp::324::RpcServer::run_rpc_server] CMD Server listening on tcp://0.0.0.0:10086
+[2025-04-13 11:35:36.276] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:35:36.276] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:35:36.277] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x10[Functions_FUNC_GET_SELF_WXID] length: 2
+[2025-04-13 11:35:36.277] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 23
+[2025-04-13 11:35:36.278] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x01[Functions_FUNC_IS_LOGIN] length: 2
+[2025-04-13 11:35:36.278] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:35:36.278] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x30[Functions_FUNC_ENABLE_RECV_TXT] length: 4
+[2025-04-13 11:35:36.321] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:35:48.695] [debug] [WCF] [message_handler.cpp::57::message::Handler::DispatchMsg] 村庄#UQ9YLV0
+[2025-04-13 11:35:48.695] [debug] [WCF] [rpc_server.cpp::191::RpcServer::on_message_callback] Push msg: 村庄#UQ9YLV0
+[2025-04-13 11:35:48.695] [debug] [WCF] [rpc_server.cpp::202::RpcServer::on_message_callback] Send data length 545
+[2025-04-13 11:35:48.696] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x12[Functions_FUNC_GET_CONTACTS] length: 2
+[2025-04-13 11:35:48.699] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 416
+[2025-04-13 11:35:48.699] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:35:48.699] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:35:48.700] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:35:48.700] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:35:48.701] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 87
+[2025-04-13 11:35:48.701] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 28
+[2025-04-13 11:35:48.702] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x50[Functions_FUNC_EXEC_DB_QUERY] length: 93
+[2025-04-13 11:35:48.702] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 115
+[2025-04-13 11:35:48.702] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x20[Functions_FUNC_SEND_TXT] length: 134
+[2025-04-13 11:35:48.703] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:35:52.501] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x21[Functions_FUNC_SEND_IMG] length: 98
+[2025-04-13 11:35:52.582] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:38:20.798] [debug] [WCF] [rpc_server.cpp::286::RpcServer::dispatcher] 0x40[Functions_FUNC_DISABLE_RECV_TXT] length: 2
+[2025-04-13 11:38:20.981] [debug] [WCF] [rpc_server.cpp::205::RpcServer::on_message_callback] Leave MSG Server.
+[2025-04-13 11:38:20.983] [debug] [WCF] [rpc_server.cpp::339::RpcServer::run_rpc_server] Send data length 4
+[2025-04-13 11:38:20.986] [debug] [WCF] [spy.cpp::40::Spy::Cleanup] CleanupSpy
+[2025-04-13 11:38:20.986] [error] [WCF] [rpc_server.cpp::333::RpcServer::run_rpc_server] cmdSock-nng_recv error: Object closed
+[2025-04-13 11:38:20.986] [debug] [WCF] [rpc_server.cpp::361::RpcServer::run_rpc_server] Leave RunRpcServer
+[2025-04-13 11:38:21.001] [debug] [WCF] [rpc_server.cpp::113::RpcServer::stop] 等待命令线程关闭
+[2025-04-13 11:38:21.001] [debug] [WCF] [rpc_server.cpp::116::RpcServer::stop] 命令线程已经关闭
+[2025-04-13 11:38:21.001] [debug] [WCF] [rpc_server.cpp::122::RpcServer::stop] 消息线程已经关闭
+[2025-04-13 11:38:21.001] [info] [WCF] [rpc_server.cpp::123::RpcServer::stop] RPC 服务已停止
+[2025-04-13 11:38:21.001] [warning] [WCF] [rpc_server.cpp::101::RpcServer::stop] RPC 服务未运行
+[2025-04-13 11:38:21.001] [debug] [WCF] [rpc_server.cpp::66::RpcServer::~RpcServer] RpcServer 被析构，释放所有资源

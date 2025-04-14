@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import json
 import time
 import logging
@@ -20,12 +21,6 @@ class PicMaker:
         self.logger = logging.getLogger('PicMaker')
         self.logger.setLevel(logging.INFO)
         
-        # 添加日志处理器（如果尚未添加）
-        if not self.logger.handlers:
-            handler = logging.StreamHandler()
-            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-            handler.setFormatter(formatter)
-            self.logger.addHandler(handler)
         
         self.mode = mode
         
@@ -40,7 +35,7 @@ class PicMaker:
             self.data = data
         
         # 缓存目录
-        self.cache_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'storage', 'cache')
+        self.cache_dir = Path(__file__).parent.parent.parent / "storage/cache"
         os.makedirs(self.cache_dir, exist_ok=True)
         
         self.logger.info(f"PicMaker初始化完成: 模式={mode}")
