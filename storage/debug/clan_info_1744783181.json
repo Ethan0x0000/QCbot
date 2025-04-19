@@ -1,0 +1,960 @@
+{
+  "tag": "#2QULJC9CU",
+  "capitalLeague": "Titan League I",
+  "changes": {
+    "clanCapital": {
+      "2023-08-25": {
+        "trophies": 1784,
+        "league": "Gold League II"
+      },
+      "2023-09-01": {
+        "trophies": 1807,
+        "league": "Gold League I"
+      },
+      "2023-09-08": {
+        "trophies": 1728,
+        "league": "Gold League II"
+      },
+      "2023-09-15": {
+        "trophies": 1758,
+        "league": "Gold League II"
+      },
+      "2023-09-22": {
+        "trophies": 1710,
+        "league": "Gold League II"
+      },
+      "2023-09-29": {
+        "trophies": 1588,
+        "league": "Gold League III"
+      },
+      "2023-10-06": {
+        "trophies": 1456,
+        "league": "Gold League III"
+      },
+      "2023-10-13": {
+        "trophies": 1393,
+        "league": "Silver League I"
+      },
+      "2023-10-20": {
+        "trophies": 1379,
+        "league": "Silver League I"
+      },
+      "2023-10-27": {
+        "trophies": 1175,
+        "league": "Silver League II"
+      },
+      "2023-11-03": {
+        "trophies": 1159,
+        "league": "Silver League II"
+      },
+      "2023-11-17": {
+        "trophies": 1807,
+        "league": "Gold League I"
+      },
+      "2023-11-24": {
+        "trophies": 2199,
+        "league": "Crystal League III"
+      },
+      "2023-12-01": {
+        "trophies": 2500,
+        "league": "Crystal League I"
+      },
+      "2023-12-08": {
+        "trophies": 2722,
+        "league": "Master League III"
+      },
+      "2023-12-15": {
+        "trophies": 2882,
+        "league": "Master League II"
+      },
+      "2023-12-22": {
+        "trophies": 3045,
+        "league": "Master League I"
+      },
+      "2023-12-29": {
+        "trophies": 3121,
+        "league": "Master League I"
+      },
+      "2024-01-05": {
+        "trophies": 3095,
+        "league": "Master League I"
+      },
+      "2024-01-12": {
+        "trophies": 3130,
+        "league": "Master League I"
+      },
+      "2024-01-19": {
+        "trophies": 3262,
+        "league": "Champion League III"
+      },
+      "2024-01-26": {
+        "trophies": 3342,
+        "league": "Champion League III"
+      },
+      "2024-02-02": {
+        "trophies": 3438,
+        "league": "Champion League III"
+      },
+      "2024-03-22": {
+        "trophies": 3886,
+        "league": "Champion League I"
+      },
+      "2024-03-29": {
+        "trophies": 3957,
+        "league": "Champion League I"
+      },
+      "2024-04-05": {
+        "trophies": 4070,
+        "league": "Champion League I"
+      },
+      "2024-04-12": {
+        "trophies": 4035,
+        "league": "Champion League I"
+      },
+      "2024-04-19": {
+        "trophies": 4056,
+        "league": "Champion League I"
+      },
+      "2024-04-26": {
+        "trophies": 4199,
+        "league": "Titan League III"
+      },
+      "2024-05-03": {
+        "trophies": 4186,
+        "league": "Titan League III"
+      },
+      "2024-05-10": {
+        "trophies": 4292,
+        "league": "Titan League III"
+      },
+      "2024-05-17": {
+        "trophies": 4434,
+        "league": "Titan League II"
+      },
+      "2024-05-24": {
+        "trophies": 4590,
+        "league": "Titan League II"
+      },
+      "2024-05-31": {
+        "trophies": 4747,
+        "league": "Titan League I"
+      },
+      "2024-06-07": {
+        "trophies": 4790,
+        "league": "Titan League I"
+      },
+      "2024-06-14": {
+        "trophies": 4799,
+        "league": "Titan League I"
+      },
+      "2024-06-21": {
+        "trophies": 4833,
+        "league": "Titan League I"
+      },
+      "2024-06-28": {
+        "trophies": 4884,
+        "league": "Titan League I"
+      },
+      "2024-07-05": {
+        "trophies": 4910,
+        "league": "Titan League I"
+      },
+      "2024-07-12": {
+        "trophies": 4943,
+        "league": "Titan League I"
+      },
+      "2024-07-19": {
+        "trophies": 5010,
+        "league": "Legend League"
+      },
+      "2024-07-26": {
+        "trophies": 5084,
+        "league": "Legend League"
+      },
+      "2024-08-02": {
+        "trophies": 5137,
+        "league": "Legend League"
+      },
+      "2024-08-09": {
+        "trophies": 5086,
+        "league": "Legend League"
+      },
+      "2024-08-16": {
+        "trophies": 5097,
+        "league": "Legend League"
+      },
+      "2024-08-23": {
+        "trophies": 5173,
+        "league": "Legend League"
+      },
+      "2024-08-30": {
+        "trophies": 5255,
+        "league": "Legend League"
+      },
+      "2024-09-06": {
+        "trophies": 5319,
+        "league": "Legend League"
+      },
+      "2024-09-13": {
+        "trophies": 5352,
+        "league": "Legend League"
+      },
+      "2024-09-20": {
+        "trophies": 5344,
+        "league": "Legend League"
+      },
+      "2024-09-27": {
+        "trophies": 5395,
+        "league": "Legend League"
+      },
+      "2024-10-04": {
+        "trophies": 5418,
+        "league": "Legend League"
+      },
+      "2024-10-11": {
+        "trophies": 5345,
+        "league": "Legend League"
+      },
+      "2024-10-18": {
+        "trophies": 5257,
+        "league": "Legend League"
+      },
+      "2024-10-25": {
+        "trophies": 5251,
+        "league": "Legend League"
+      },
+      "2024-11-01": {
+        "trophies": 5275,
+        "league": "Legend League"
+      },
+      "2024-11-08": {
+        "trophies": 5212,
+        "league": "Legend League"
+      },
+      "2024-11-15": {
+        "trophies": 5286,
+        "league": "Legend League"
+      },
+      "2024-11-22": {
+        "trophies": 5274,
+        "league": "Legend League"
+      },
+      "2024-11-29": {
+        "trophies": 5249,
+        "league": "Legend League"
+      },
+      "2024-12-06": {
+        "trophies": 5134,
+        "league": "Legend League"
+      },
+      "2024-12-13": {
+        "trophies": 5049,
+        "league": "Legend League"
+      },
+      "2024-12-20": {
+        "trophies": 5012,
+        "league": "Legend League"
+      },
+      "2024-12-27": {
+        "trophies": 5062,
+        "league": "Legend League"
+      },
+      "2025-01-03": {
+        "trophies": 5103,
+        "league": "Legend League"
+      },
+      "2025-01-10": {
+        "trophies": 5081,
+        "league": "Legend League"
+      },
+      "2025-01-17": {
+        "trophies": 5078,
+        "league": "Legend League"
+      },
+      "2025-01-24": {
+        "trophies": 5127,
+        "league": "Legend League"
+      },
+      "2025-01-31": {
+        "trophies": 5076,
+        "league": "Legend League"
+      },
+      "2025-02-07": {
+        "trophies": 5027,
+        "league": "Legend League"
+      },
+      "2025-02-14": {
+        "trophies": 5161,
+        "league": "Legend League"
+      },
+      "2025-02-21": {
+        "trophies": 5203,
+        "league": "Legend League"
+      },
+      "2025-02-28": {
+        "trophies": 5129,
+        "league": "Legend League"
+      },
+      "2025-03-07": {
+        "trophies": 5148,
+        "league": "Legend League"
+      },
+      "2025-03-14": {
+        "trophies": 5047,
+        "league": "Legend League"
+      },
+      "2025-03-21": {
+        "trophies": 5095,
+        "league": "Legend League"
+      },
+      "2025-03-28": {
+        "trophies": 5048,
+        "league": "Legend League"
+      },
+      "2025-04-04": {
+        "trophies": 4908,
+        "league": "Titan League I"
+      },
+      "2025-04-11": {
+        "trophies": 4931,
+        "league": "Titan League I"
+      },
+      "2025-04-18": {
+        "trophies": 4989,
+        "league": "Titan League I"
+      }
+    },
+    "clanWarLeague": {
+      "2023-09": {
+        "league": "Gold League II"
+      },
+      "2023-10": {
+        "league": "Gold League II"
+      },
+      "2023-11": {
+        "league": "Gold League III"
+      },
+      "2023-12": {
+        "league": "Gold League III"
+      },
+      "2024-01": {
+        "league": "Gold League III"
+      },
+      "2024-02": {
+        "league": "Gold League III"
+      },
+      "2024-03": {
+        "league": "Gold League I"
+      },
+      "2024-04": {
+        "league": "Crystal League III"
+      },
+      "2024-05": {
+        "league": "Crystal League II"
+      },
+      "2024-06": {
+        "league": "Crystal League I"
+      },
+      "2024-07": {
+        "league": "Master League III"
+      },
+      "2024-08": {
+        "league": "Master League II"
+      },
+      "2024-09": {
+        "league": "Master League I"
+      },
+      "2024-10": {
+        "league": "Champion League III"
+      },
+      "2024-11": {
+        "league": "Champion League III"
+      },
+      "2024-12": {
+        "league": "Champion League III"
+      },
+      "2025-01": {
+        "league": "Champion League III"
+      },
+      "2025-02": {
+        "league": "Champion League II"
+      },
+      "2025-03": {
+        "league": "Champion League II"
+      },
+      "2025-04": {
+        "league": "Champion League I"
+      }
+    }
+  },
+  "clanCapitalHallLevel": 10,
+  "clanCapitalPoints": 4989,
+  "isValid": true,
+  "members": 46,
+  "name": "司法强拆",
+  "warLeague": "Champion League I",
+  "warWinStreak": 110,
+  "warWins": 182,
+  "clanPoints": 49742,
+  "level": 20,
+  "location": {
+    "id": 32000056,
+    "name": "China"
+  },
+  "memberList": [
+    {
+      "name": "NiceBob",
+      "tag": "#QU0L89L9J",
+      "role": "admin",
+      "expLevel": 215,
+      "trophies": 5668,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 2514,
+      "donations": 33,
+      "donationsReceived": 59
+    },
+    {
+      "name": "碌野多得哉",
+      "tag": "#C28LUPU0",
+      "role": "admin",
+      "expLevel": 253,
+      "trophies": 5619,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3352,
+      "donations": 475,
+      "donationsReceived": 1568
+    },
+    {
+      "name": "Sebastian",
+      "tag": "#YGGUJC02Q",
+      "role": "coLeader",
+      "expLevel": 248,
+      "trophies": 5585,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4428,
+      "donations": 56,
+      "donationsReceived": 900
+    },
+    {
+      "name": "JendralSudirman",
+      "tag": "#2RJCRLQLP",
+      "role": "coLeader",
+      "expLevel": 282,
+      "trophies": 5573,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3579,
+      "donations": 0,
+      "donationsReceived": 2583
+    },
+    {
+      "name": "楪祈",
+      "tag": "#LJ8U9QR9",
+      "role": "admin",
+      "expLevel": 241,
+      "trophies": 5543,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4650,
+      "donations": 243,
+      "donationsReceived": 2088
+    },
+    {
+      "name": "买辣条也用券",
+      "tag": "#UQ9YLV0",
+      "role": "coLeader",
+      "expLevel": 244,
+      "trophies": 5464,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3984,
+      "donations": 0,
+      "donationsReceived": 4614
+    },
+    {
+      "name": "FARIYA",
+      "tag": "#8C2L2RPVG",
+      "role": "admin",
+      "expLevel": 229,
+      "trophies": 5464,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4444,
+      "donations": 97,
+      "donationsReceived": 1102
+    },
+    {
+      "name": "SK • KING",
+      "tag": "#80QQ0JY9P",
+      "role": "admin",
+      "expLevel": 304,
+      "trophies": 5438,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4746,
+      "donations": 518,
+      "donationsReceived": 4926
+    },
+    {
+      "name": "太上无情",
+      "tag": "#2CGY89V0Q",
+      "role": "member",
+      "expLevel": 279,
+      "trophies": 5394,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4850,
+      "donations": 129,
+      "donationsReceived": 1472
+    },
+    {
+      "name": "tony",
+      "tag": "#GY0C09CC8",
+      "role": "admin",
+      "expLevel": 181,
+      "trophies": 5393,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3669,
+      "donations": 0,
+      "donationsReceived": 2686
+    },
+    {
+      "name": "⚡️⚡️Poison ⭐️弑神",
+      "tag": "#JUJQ0JL",
+      "role": "member",
+      "expLevel": 257,
+      "trophies": 5390,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4187,
+      "donations": 303,
+      "donationsReceived": 3492
+    },
+    {
+      "name": "络歧攸",
+      "tag": "#QQV0CPURL",
+      "role": "member",
+      "expLevel": 218,
+      "trophies": 5277,
+      "townhall": 16,
+      "league": "Legend League",
+      "builderTrophies": 3822,
+      "donations": 0,
+      "donationsReceived": 3922
+    },
+    {
+      "name": "Elijah",
+      "tag": "#JVVVRU80",
+      "role": "coLeader",
+      "expLevel": 247,
+      "trophies": 5064,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3089,
+      "donations": 0,
+      "donationsReceived": 1890
+    },
+    {
+      "name": "麦豆",
+      "tag": "#QCLC980VU",
+      "role": "admin",
+      "expLevel": 148,
+      "trophies": 5012,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 2262,
+      "donations": 0,
+      "donationsReceived": 1657
+    },
+    {
+      "name": "dream land",
+      "tag": "#GL9JU9UCP",
+      "role": "admin",
+      "expLevel": 146,
+      "trophies": 4995,
+      "townhall": 16,
+      "league": "Legend League",
+      "builderTrophies": 2656,
+      "donations": 0,
+      "donationsReceived": 325
+    },
+    {
+      "name": "云无心",
+      "tag": "#GPLLJ29U9",
+      "role": "member",
+      "expLevel": 150,
+      "trophies": 4993,
+      "townhall": 15,
+      "league": "Legend League",
+      "builderTrophies": 2110,
+      "donations": 0,
+      "donationsReceived": 685
+    },
+    {
+      "name": "神之子部落",
+      "tag": "#GYU8QCRCY",
+      "role": "member",
+      "expLevel": 163,
+      "trophies": 4989,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 2758,
+      "donations": 0,
+      "donationsReceived": 2160
+    },
+    {
+      "name": "Gastor",
+      "tag": "#22UYJJPPV",
+      "role": "admin",
+      "expLevel": 243,
+      "trophies": 4959,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4916,
+      "donations": 0,
+      "donationsReceived": 616
+    },
+    {
+      "name": "听说愛情回来过",
+      "tag": "#QPRL8LP02",
+      "role": "admin",
+      "expLevel": 192,
+      "trophies": 4955,
+      "townhall": 17,
+      "league": "Titan League I",
+      "builderTrophies": 2835,
+      "donations": 619,
+      "donationsReceived": 2261
+    },
+    {
+      "name": "麗麗",
+      "tag": "#9PYU0LQJR",
+      "role": "member",
+      "expLevel": 248,
+      "trophies": 4954,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3257,
+      "donations": 0,
+      "donationsReceived": 328
+    },
+    {
+      "name": "Rah!L®",
+      "tag": "#298P2CL2U",
+      "role": "member",
+      "expLevel": 257,
+      "trophies": 4951,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 2973,
+      "donations": 0,
+      "donationsReceived": 1037
+    },
+    {
+      "name": "葉丶",
+      "tag": "#9JRJLJCP0",
+      "role": "member",
+      "expLevel": 250,
+      "trophies": 4938,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3555,
+      "donations": 0,
+      "donationsReceived": 58
+    },
+    {
+      "name": "G2♥️KESY.Lin",
+      "tag": "#8P8VULRYC",
+      "role": "coLeader",
+      "expLevel": 228,
+      "trophies": 4933,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 4998,
+      "donations": 33,
+      "donationsReceived": 429
+    },
+    {
+      "name": "转身以是陌路",
+      "tag": "#GQ288UCJ9",
+      "role": "admin",
+      "expLevel": 176,
+      "trophies": 4930,
+      "townhall": 17,
+      "league": "Legend League",
+      "builderTrophies": 3499,
+      "donations": 12,
+      "donationsReceived": 829
+    },
+    {
+      "name": "⚡Brunor ™️",
+      "tag": "#YULVJV90U",
+      "role": "member",
+      "expLevel": 238,
+      "trophies": 4829,
+      "townhall": 17,
+      "league": "Titan League I",
+      "builderTrophies": 3748,
+      "donations": 3,
+      "donationsReceived": 953
+    },
+    {
+      "name": "404 no found",
+      "tag": "#QLUGP9290",
+      "role": "member",
+      "expLevel": 167,
+      "trophies": 4821,
+      "townhall": 15,
+      "league": "Titan League I",
+      "builderTrophies": 3250,
+      "donations": 0,
+      "donationsReceived": 0
+    },
+    {
+      "name": "手握星辰日月",
+      "tag": "#QRUG92LLY",
+      "role": "member",
+      "expLevel": 187,
+      "trophies": 4682,
+      "townhall": 17,
+      "league": "Titan League II",
+      "builderTrophies": 3749,
+      "donations": 0,
+      "donationsReceived": 434
+    },
+    {
+      "name": "THESUN",
+      "tag": "#G2CUVLVQP",
+      "role": "member",
+      "expLevel": 131,
+      "trophies": 4467,
+      "townhall": 17,
+      "league": "Titan League II",
+      "builderTrophies": 1792,
+      "donations": 0,
+      "donationsReceived": 243
+    },
+    {
+      "name": "Oct03",
+      "tag": "#2JP08JJ80",
+      "role": "member",
+      "expLevel": 194,
+      "trophies": 4412,
+      "townhall": 14,
+      "league": "Titan League II",
+      "builderTrophies": 3060,
+      "donations": 0,
+      "donationsReceived": 480
+    },
+    {
+      "name": "硅铁",
+      "tag": "#GPJ0G9P0P",
+      "role": "member",
+      "expLevel": 143,
+      "trophies": 4339,
+      "townhall": 16,
+      "league": "Titan League II",
+      "builderTrophies": 3102,
+      "donations": 0,
+      "donationsReceived": 2201
+    },
+    {
+      "name": "第五乐安的耶爹",
+      "tag": "#G0JYUVQUU",
+      "role": "member",
+      "expLevel": 151,
+      "trophies": 4215,
+      "townhall": 17,
+      "league": "Titan League III",
+      "builderTrophies": 3243,
+      "donations": 0,
+      "donationsReceived": 1308
+    },
+    {
+      "name": "帅男",
+      "tag": "#GQ88YL22R",
+      "role": "admin",
+      "expLevel": 133,
+      "trophies": 4195,
+      "townhall": 16,
+      "league": "Titan League III",
+      "builderTrophies": 2407,
+      "donations": 0,
+      "donationsReceived": 577
+    },
+    {
+      "name": "爸比最帅了",
+      "tag": "#QC8Y2Y2LL",
+      "role": "member",
+      "expLevel": 155,
+      "trophies": 4150,
+      "townhall": 14,
+      "league": "Titan League III",
+      "builderTrophies": 2601,
+      "donations": 95,
+      "donationsReceived": 1715
+    },
+    {
+      "name": "伤心偷梅头",
+      "tag": "#G0CU2LL88",
+      "role": "member",
+      "expLevel": 139,
+      "trophies": 3728,
+      "townhall": 14,
+      "league": "Champion League II",
+      "builderTrophies": 2840,
+      "donations": 0,
+      "donationsReceived": 822
+    },
+    {
+      "name": "不要打我",
+      "tag": "#GLY0J0U9C",
+      "role": "member",
+      "expLevel": 163,
+      "trophies": 3348,
+      "townhall": 15,
+      "league": "Champion League III",
+      "builderTrophies": 2360,
+      "donations": 0,
+      "donationsReceived": 53
+    },
+    {
+      "name": "烦恼多多",
+      "tag": "#QR2JQPC80",
+      "role": "member",
+      "expLevel": 171,
+      "trophies": 3286,
+      "townhall": 16,
+      "league": "Champion League III",
+      "builderTrophies": 2916,
+      "donations": 0,
+      "donationsReceived": 50
+    },
+    {
+      "name": "Ethan0x0000",
+      "tag": "#QCQ2C8PUJ",
+      "role": "admin",
+      "expLevel": 197,
+      "trophies": 3006,
+      "townhall": 16,
+      "league": "Master League I",
+      "builderTrophies": 2434,
+      "donations": 51525,
+      "donationsReceived": 0
+    },
+    {
+      "name": "蒸米",
+      "tag": "#G2ULQYUP0",
+      "role": "admin",
+      "expLevel": 229,
+      "trophies": 3000,
+      "townhall": 17,
+      "league": "Master League I",
+      "builderTrophies": 2936,
+      "donations": 47495,
+      "donationsReceived": 0
+    },
+    {
+      "name": "dogelove",
+      "tag": "#QUQ8JQJQU",
+      "role": "admin",
+      "expLevel": 211,
+      "trophies": 2996,
+      "townhall": 16,
+      "league": "Master League I",
+      "builderTrophies": 2495,
+      "donations": 25877,
+      "donationsReceived": 0
+    },
+    {
+      "name": "夜来香",
+      "tag": "#GPYPUPL2Y",
+      "role": "admin",
+      "expLevel": 153,
+      "trophies": 2995,
+      "townhall": 16,
+      "league": "Master League I",
+      "builderTrophies": 2402,
+      "donations": 28179,
+      "donationsReceived": 0
+    },
+    {
+      "name": "总有人间一两风",
+      "tag": "#GRURURCY0",
+      "role": "member",
+      "expLevel": 114,
+      "trophies": 2923,
+      "townhall": 13,
+      "league": "Master League I",
+      "builderTrophies": 3131,
+      "donations": 0,
+      "donationsReceived": 77
+    },
+    {
+      "name": "团子养的猫",
+      "tag": "#QVGUVYPV9",
+      "role": "member",
+      "expLevel": 113,
+      "trophies": 2897,
+      "townhall": 14,
+      "league": "Master League II",
+      "builderTrophies": 2039,
+      "donations": 0,
+      "donationsReceived": 0
+    },
+    {
+      "name": "老帅",
+      "tag": "#2CQL8V0P2",
+      "role": "member",
+      "expLevel": 237,
+      "trophies": 2726,
+      "townhall": 17,
+      "league": "Master League III",
+      "builderTrophies": 3117,
+      "donations": 0,
+      "donationsReceived": 634
+    },
+    {
+      "name": "sss",
+      "tag": "#G29RUG892",
+      "role": "member",
+      "expLevel": 134,
+      "trophies": 2480,
+      "townhall": 14,
+      "league": "Crystal League I",
+      "builderTrophies": 2224,
+      "donations": 0,
+      "donationsReceived": 2795
+    },
+    {
+      "name": "神之子",
+      "tag": "#GL82QYCP2",
+      "role": "member",
+      "expLevel": 122,
+      "trophies": 988,
+      "townhall": 16,
+      "league": "Silver League III",
+      "builderTrophies": 1267,
+      "donations": 0,
+      "donationsReceived": 415
+    },
+    {
+      "name": "Ethan",
+      "tag": "#G9QUPUGL8",
+      "role": "leader",
+      "expLevel": 30,
+      "trophies": 557,
+      "townhall": 8,
+      "league": "Unranked",
+      "builderTrophies": 40,
+      "donations": 0,
+      "donationsReceived": 0
+    }
+  ],
+  "type": "inviteOnly",
+  "openWarLog": true
+}

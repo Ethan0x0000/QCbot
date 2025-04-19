@@ -1,0 +1,8 @@
+{
+  "room_to_clan_tag": {
+    "room_1234567890": "#A1"
+  },
+  "clan_tag_to_room": {
+    "#A1": "room_1234567890"
+  }
+}

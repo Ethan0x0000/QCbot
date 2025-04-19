@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-DATA_PATH = Path(__file__).parent.parent.parent / "storage" / "sign" / "data.json"
+DATA_PATH = Path(__file__).parent.parent.parent / "storage" / "sign_system" / "data.json"
 
 class SignSystem:
     def __init__(self):

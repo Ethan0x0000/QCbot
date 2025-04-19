@@ -5,6 +5,7 @@ import json
 import logging
 import os
 from dotenv import load_dotenv
+import chardet
 
 # 加载.env文件中的环境变量
 load_dotenv()
@@ -52,20 +53,32 @@ class APIRouter:
             raise ValueError("params must be a dictionary")
 
         match mode:
-            case "player_stats":
+            case "player_info":
                 return f"{self.BASE_URL_COC}/players/{quote(params['tag'])}", 'coc'
-            case "player_lengends":
-                return f"{self.BASE_URL_CK}/player/{quote(params['tag'])}/legends", 'ck'
+            case "player_legend":
+                return f"{self.BASE_URL_CK}/player/{quote(params['tag'])}/legends?season={quote(params['season'])}", 'ck'
             case "player_search":
-                return f"{self.BASE_URL_CK}/player/full-search/{quote(params['name'])}?limit=25", 'ck'
-            case "clan_basic":
-                return f"{self.BASE_URL_CK}/clan/{quote(params['tag'])}/basic", 'ck'
+                if params['name']:
+                    url = f"{self.BASE_URL_CK}/player/full-search/{quote(params['name'])}?limit=25"
+                if params['league']:
+                    url = f"{url}&league={quote(params['league'])}"
+                if params['townhall']:
+                    url = f"{url}&townhall={quote(params['townhall'])}"
+                if params['exp']:
+                    url = f"{url}&exp={quote(params['exp'])}"
+                if params['trophies']:
+                    url = f"{url}&trophies={quote(params['trophies'])}"
+                return url, 'ck'
+            case "clan_info":
+                return f"{self.BASE_URL_COC}/clans/{quote(params['tag'])}", 'coc'
             case "clan_war":
                 return f"{self.BASE_URL_CK}/timeline/{quote(params['tag'])}", 'ck'
             case "clan_leagues":
                 return f"{self.BASE_URL_CK}/cwl/{quote(params['tag'])}/{params['season']}", 'ck'
             case "capital_logs":
                 return f"{self.BASE_URL_CK}/capital/{quote(params['tag'])}?limit=1", 'ck'
+            case "list_season":
+                return f"{self.BASE_URL_CK}/list/seasons?last=12", 'ck'
             case _:
                 raise ValueError("Invalid request mode.")
 
@@ -90,9 +103,9 @@ class APIRouter:
             if target == 'ck':
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-                    'Accept': '*/*',
+                    'Accept': 'application/json, text/plain, */*',
                     'Connection': 'keep-alive',
-                }
+                }   
             else:
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -101,28 +114,56 @@ class APIRouter:
                     'Authorization': f'Bearer {self.token}'
                 }
             response = self.session.get(url, timeout=self.timeout, headers=headers, verify=True)
-            response.raise_for_status()
-
-            
-            # 记录成功响应
-            self.logger.info(f"请求成功: {url} - 状态码: {response.status_code}")
-            
             content_type = response.headers.get('Content-Type', '')
+
+            # 特别处理 503 Maintenance 且返回 JSON 的情况
+            if response.status_code == 503 and 'application/json' in content_type:
+                self.logger.warning(f"API处于维护状态: {url} - 状态码: {response.status_code}")
+                try:
+                    json_data = response.json()
+                    self.logger.debug(f"维护模式响应数据: {str(json_data)[:200]}...")
+                    return {
+                        'content_type': 'json',
+                        'content': json_data,
+                        'status_code': response.status_code
+                    }
+                except json.JSONDecodeError as e:
+                    self.logger.error(f"维护模式JSON解析失败: {url} - 响应内容: {response.text[:200]}...")
+                    # 即使解析失败，也返回原始文本和503状态码，而不是None
+                    return {
+                        'content_type': 'text', # 或者 'json_decode_error'
+                        'content': response.text,
+                        'status_code': 503,
+                        'error': f"JSONDecodeError: {str(e)}"
+                    }
+
+            # 对其他非成功状态码抛出异常
+            response.raise_for_status()
+            
+            # 记录成功响应 (现在只记录 2xx)
+            self.logger.info(f"请求成功: {url} - 状态码: {response.status_code}")
+
+            # 处理成功的 JSON 响应
             if 'application/json' in content_type:
                 try:
-                    data = response.json()
+                    json_data = response.json()
                     # 可选: 记录响应数据摘要
-                    self.logger.debug(f"响应数据: {str(data)[:200]}...")
-                    return data
+                    self.logger.debug(f"响应数据: {str(json_data)[:200]}...")
+                    return {
+                        'content_type': 'json',
+                        'content': json_data,
+                        'status_code': response.status_code
+                    }
+                
                 except json.JSONDecodeError as e:
                     self.logger.error(f"JSON解析失败: {url} - 响应内容: {response.text[:200]}...")
-                    raise ValueError(
-                        f"API 返回的数据不是有效的 JSON 格式\n"
-                        f"URL: {url}\n"
-                        f"状态码: {response.status_code}\n"
-                        f"响应头: {response.headers}\n"
-                        f"响应内容: {response.text[:500]}..."
-                    ) from e
+                    # 成功状态码但JSON解析失败，返回 None 内容和 555 状态码
+                    return {
+                        'content_type': 'json',
+                        'content': None,
+                        'status_code': 555, # 使用特定状态码表示解析错误
+                        'error': f"JSONDecodeError: {str(e)}"
+                    }
             elif 'text/html' in content_type:
                 self.logger.debug(f"收到HTML响应: {url}")
                 # 手动处理响应内容编码
@@ -132,7 +173,6 @@ class APIRouter:
                     html_content = content.decode('utf-8')
                 except UnicodeDecodeError:
                     # 如果失败，尝试检测编码
-                    import chardet
                     encoding = chardet.detect(content)['encoding']
                     try:
                         html_content = content.decode(encoding)
@@ -141,23 +181,28 @@ class APIRouter:
                         html_content = content.decode('utf-8', errors='replace')
                 
                 return {
-                    'content_type': 'text/html',
-                    'content': html_content
+                    'content_type': 'html',
+                    'content': html_content,
+                    'status_code': response.status_code
                 }
             else:
                 self.logger.warning(f"未知的Content-Type: {content_type}")
                 return {
-                    'content_type': content_type,
-                    'content': response.text
+                    'content_type': 'unknown',
+                    'content': response.text,
+                    'status_code': response.status_code
                 }
                 
         except requests.exceptions.RequestException as e:
             self.logger.error(f"请求失败: {url} - 错误: {str(e)}")
-            raise ValueError(
-                f"API 请求失败\n"
-                f"URL: {url}\n"
-                f"错误详情: {str(e)}"
-            ) from e
+            status_code = getattr(e.response, 'status_code', 500) # 如果没有响应对象，则默认为500
+            # 返回包含错误信息和状态码的字典
+            return {
+                'content_type': None,
+                'content': None,
+                'error': str(e), 
+                'status_code': status_code
+            }
     
     def get_data(self, mode: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """

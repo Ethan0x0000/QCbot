@@ -40,82 +40,66 @@ class PicMaker:
         
         self.logger.info(f"PicMaker初始化完成: 模式={mode}")
     
-    def generate(self) -> str:
+    def generate(self, filename: str) -> str:
         """
         根据指定的模式和数据生成图片
         
         Returns:
             生成的图片路径
         """
-        self.logger.info(f"开始生成图片: 模式={self.mode}")
+        self.logger.info(f"开始生成图片, 模式: {self.mode}")
         
         # 生成唯一的文件名
-        timestamp = int(time.time())
-        filename = f"{self.mode}_{timestamp}.png"
         filepath = os.path.join(self.cache_dir, filename)
         
         try:
             # 根据不同模式生成图片
-            if self.mode == "player_stats":
-                self._generate_player_stats(filepath)
-            elif self.mode == "chart":
-                self._generate_chart_image(filepath)
-            elif self.mode == "complex":
-                self._generate_complex_image(filepath)
+            if self.mode == "player_info":
+                self._generate_player_info(filepath)
+            elif self.mode == "clan_info":
+                self._generate_clan_info(filepath)
+            elif self.mode == "player_legend":
+                self._generate_player_legend(filepath)
             else:
                 self.logger.warning(f"未知的生成模式: {self.mode}，使用默认模式")
                 self._generate_default_image(filepath)
             
-            self.logger.info(f"图片生成成功: {filepath}")
+            self.logger.info(f"图片生成成功: {filename}")
             return filepath
         
         except Exception as e:
             self.logger.error(f"图片生成失败: {str(e)}")
             raise RuntimeError(f"图片生成失败: {str(e)}")
     
-    def _generate_player_stats(self, filepath: str) -> None:
+    def _generate_player_info(self, filepath: str) -> None:
         """
         生成玩家统计图片
         
         Args:
             filepath: 图片保存路径
         """
-        from .player_stats import generate_player_stats_image
-        # 调用player_stats.py中的函数生成图片
-        generate_player_stats_image(self.data, filepath)
+        from .player_info import generate_player_info_image
+        # 调用player_info.py中的函数生成图片
+        generate_player_info_image(self.data, filepath)
     
-    def _generate_chart_image(self, filepath: str) -> None:
+    def _generate_player_legend(self, filepath: str) -> None:
         """
-        生成图表图片
+        生成玩家联赛图片
         
         Args:
             filepath: 图片保存路径
         """
-        # 这里实现图表图片生成逻辑
-        # 示例代码，实际应用中需要替换为真实的图片生成代码
-        with open(filepath, 'w') as f:
-            f.write("Chart image placeholder")
-    
-    def _generate_complex_image(self, filepath: str) -> None:
+        from .player_legend import generate_player_legend_image
+        # 调用player_legend.py中的函数生成图片
+        generate_player_legend_image(self.data, filepath)
+
+    def _generate_clan_info(self, filepath: str) -> None:
         """
-        生成复杂图片
+        生成部落信息图片
         
         Args:
             filepath: 图片保存路径
         """
-        # 这里实现复杂图片生成逻辑
-        # 示例代码，实际应用中需要替换为真实的图片生成代码
-        with open(filepath, 'w') as f:
-            f.write("Complex image placeholder")
-    
-    def _generate_default_image(self, filepath: str) -> None:
-        """
-        生成默认图片
-        
-        Args:
-            filepath: 图片保存路径
-        """
-        # 这里实现默认图片生成逻辑
-        # 示例代码，实际应用中需要替换为真实的图片生成代码
-        with open(filepath, 'w') as f:
-            f.write("Default image placeholder")
+        from .clan_info import generate_clan_info_image
+        # 调用clan_info.py中的函数生成图片
+        generate_clan_info_image(self.data, filepath)

@@ -1,4 +1,4 @@
-from core import QCBot 
+from bot import QCBot 
 
 if __name__ == "__main__":
     bot = QCBot()
