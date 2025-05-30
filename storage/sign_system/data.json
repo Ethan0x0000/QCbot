@@ -5,6 +5,12 @@
       "continuous_days": 1,
       "points": 31,
       "rank": 1
+    },
+    "test_user": {
+      "last_sign_date": "2025-05-11",
+      "continuous_days": 1,
+      "points": 10,
+      "rank": 2
     }
   }
 }

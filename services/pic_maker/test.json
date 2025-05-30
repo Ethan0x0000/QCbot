@@ -1,0 +1,2060 @@
+{
+    "items": [
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 35,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250416T132729.000Z",
+          "startTime": "20250417T122729.000Z",
+          "endTime": "20250418T122729.000Z",
+          "clan": {
+            "tag": "#2G0JC9RVJ",
+            "name": "la familia",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/tMK-nCBxTHQqUhjwdzB5D1khCY8y-6xTgyLT6Cqxgho.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/tMK-nCBxTHQqUhjwdzB5D1khCY8y-6xTgyLT6Cqxgho.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/tMK-nCBxTHQqUhjwdzB5D1khCY8y-6xTgyLT6Cqxgho.png"
+            },
+            "clanLevel": 15,
+            "attacks": 68,
+            "stars": 103,
+            "destructionPercentage": 99.62857
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 65,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#LPPPQPRJ8",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 31,
+            "duration": 122,
+            "fresh": false,
+            "defender": {
+              "tag": "#LPPPQPRJ8",
+              "name": "전사",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 9
+            },
+            "attack_order": 31
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#QRYVGU9GJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 32,
+            "duration": 117,
+            "fresh": true,
+            "defender": {
+              "tag": "#QRYVGU9GJ",
+              "name": "아보카동",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 1
+            },
+            "attack_order": 32
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#QRYVGU9GJ",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 138,
+            "fresh": true,
+            "attacker": {
+              "tag": "#QRYVGU9GJ",
+              "name": "아보카동",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 1
+            },
+            "attack_order": 5
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 35,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250414T131840.000Z",
+          "startTime": "20250415T124838.000Z",
+          "endTime": "20250416T124838.000Z",
+          "clan": {
+            "tag": "#V8GP89P",
+            "name": "莫问归期",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/5ipKBcP0NoxvyfnMV2j4wOcMORI3ZukK2dvq0CQRwBo.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/5ipKBcP0NoxvyfnMV2j4wOcMORI3ZukK2dvq0CQRwBo.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/5ipKBcP0NoxvyfnMV2j4wOcMORI3ZukK2dvq0CQRwBo.png"
+            },
+            "clanLevel": 27,
+            "attacks": 68,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 66,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#QJ028J8QY",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 29,
+            "duration": 130,
+            "fresh": false,
+            "defender": {
+              "tag": "#QJ028J8QY",
+              "name": "冰城",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 7
+            },
+            "attack_order": 29
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#LC22Y8GC",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 31,
+            "duration": 112,
+            "fresh": false,
+            "defender": {
+              "tag": "#LC22Y8GC",
+              "name": "乌拉✨",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 4
+            },
+            "attack_order": 31
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#QVYQ2GRGR",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 49,
+            "duration": 141,
+            "fresh": true,
+            "attacker": {
+              "tag": "#QVYQ2GRGR",
+              "name": "Anonymous",
+              "townhallLevel": 17,
+              "mapPosition": 10,
+              "opponentAttacks": 1
+            },
+            "attack_order": 49
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 35,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250412T133714.000Z",
+          "startTime": "20250413T123714.000Z",
+          "endTime": "20250414T130814.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 70,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#98U8QPQL",
+            "name": "semarang city",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/5ko6JkePsdU00wH02ad4gyCqaE7KOCaLrx14x_5S9KE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/5ko6JkePsdU00wH02ad4gyCqaE7KOCaLrx14x_5S9KE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/5ko6JkePsdU00wH02ad4gyCqaE7KOCaLrx14x_5S9KE.png"
+            },
+            "clanLevel": 29,
+            "attacks": 53,
+            "stars": 100,
+            "destructionPercentage": 98.171425
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 3
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#9VLCVQ89J",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 20,
+            "duration": 71,
+            "fresh": true,
+            "defender": {
+              "tag": "#9VLCVQ89J",
+              "name": "Jack",
+              "townhallLevel": 17,
+              "mapPosition": 15,
+              "opponentAttacks": 1
+            },
+            "attack_order": 20
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#8G9CRY88R",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 21,
+            "duration": 75,
+            "fresh": true,
+            "defender": {
+              "tag": "#8G9CRY88R",
+              "name": "Didin",
+              "townhallLevel": 17,
+              "mapPosition": 16,
+              "opponentAttacks": 1
+            },
+            "attack_order": 21
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#8GLQP29",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 77,
+            "order": 108,
+            "duration": 98,
+            "fresh": false,
+            "attacker": {
+              "tag": "#8GLQP29",
+              "name": "✳️Rajarania✳️",
+              "townhallLevel": 17,
+              "mapPosition": 4,
+              "opponentAttacks": 1
+            },
+            "attack_order": 108
+          },
+          {
+            "attackerTag": "#89PQGVCP2",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 83,
+            "order": 102,
+            "duration": 147,
+            "fresh": false,
+            "attacker": {
+              "tag": "#89PQGVCP2",
+              "name": "OU'HOPE'",
+              "townhallLevel": 17,
+              "mapPosition": 10,
+              "opponentAttacks": 1
+            },
+            "attack_order": 102
+          },
+          {
+            "attackerTag": "#PL0G2QY",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 71,
+            "order": 54,
+            "duration": 149,
+            "fresh": true,
+            "attacker": {
+              "tag": "#PL0G2QY",
+              "name": "RHEND_AR",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 1
+            },
+            "attack_order": 54
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 30,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250410T140714.000Z",
+          "startTime": "20250411T130714.000Z",
+          "endTime": "20250412T130714.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 46,
+            "stars": 90,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#Y9009PRC",
+            "name": "TINH NGHIA",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/O-i3G5pB9bg7QW5F5-6yxtfbFvsWbp8T_1iGZDJuCGE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/O-i3G5pB9bg7QW5F5-6yxtfbFvsWbp8T_1iGZDJuCGE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/O-i3G5pB9bg7QW5F5-6yxtfbFvsWbp8T_1iGZDJuCGE.png"
+            },
+            "clanLevel": 27,
+            "attacks": 57,
+            "stars": 90,
+            "destructionPercentage": 100
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 2
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#YQ8J0PLL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 3,
+            "duration": 113,
+            "fresh": true,
+            "defender": {
+              "tag": "#YQ8J0PLL",
+              "name": "Cupid",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 4
+            },
+            "attack_order": 3
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#VPGJ9PVQ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 101,
+            "fresh": true,
+            "defender": {
+              "tag": "#VPGJ9PVQ",
+              "name": "Huy_Hoàng",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 3
+            },
+            "attack_order": 5
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#9JQ2Y299C",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 1,
+            "destructionPercentage": 8,
+            "order": 99,
+            "duration": 29,
+            "fresh": false,
+            "attacker": {
+              "tag": "#9JQ2Y299C",
+              "name": "✨✨Knight✨✨",
+              "townhallLevel": 15,
+              "mapPosition": 27,
+              "opponentAttacks": 1
+            },
+            "attack_order": 99
+          },
+          {
+            "attackerTag": "#8QQU2J90R",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 34,
+            "duration": 138,
+            "fresh": true,
+            "attacker": {
+              "tag": "#8QQU2J90R",
+              "name": "Kim Min Ji",
+              "townhallLevel": 17,
+              "mapPosition": 6,
+              "opponentAttacks": 1
+            },
+            "attack_order": 34
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "preparationStartTime": "20250408T125938.000Z",
+          "startTime": "20250409T132956.000Z",
+          "endTime": "20250410T132956.000Z",
+          "clan": {
+            "tag": "#L99R2GY0",
+            "name": "ez3",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/-yIsVsBiozgQrSoQffSYg4tJUe3jGBNS3bVTJ05lX_0.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/-yIsVsBiozgQrSoQffSYg4tJUe3jGBNS3bVTJ05lX_0.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/-yIsVsBiozgQrSoQffSYg4tJUe3jGBNS3bVTJ05lX_0.png"
+            },
+            "clanLevel": 27,
+            "attacks": 15,
+            "stars": 41,
+            "destructionPercentage": 96.73333333333333
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 15,
+            "stars": 43,
+            "destructionPercentage": 98.8
+          },
+          "warStartTime": "20250409T132956.000Z",
+          "tag": "#8PV0R89JQ",
+          "season": "2025-04",
+          "type": "cwl"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 1,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#QJY22P0P",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 4,
+            "duration": 104,
+            "fresh": true,
+            "defender": {
+              "tag": "#QJY22P0P",
+              "name": "mrbrad2007",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 1
+            },
+            "attack_order": 4
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#8LQPLQGU",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 13,
+            "duration": 144,
+            "fresh": true,
+            "attacker": {
+              "tag": "#8LQPLQGU",
+              "name": "Tj",
+              "townhallLevel": 17,
+              "mapPosition": 6,
+              "opponentAttacks": 1
+            },
+            "attack_order": 13
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "preparationStartTime": "20250407T125634.000Z",
+          "startTime": "20250408T125633.000Z",
+          "endTime": "20250409T132909.000Z",
+          "clan": {
+            "tag": "#2G00VUVUJ",
+            "name": "Icarus",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/XSAwkJxMU_eVL7Gxdjn1Dr9IPIwSTp0Xcv9BIFMXqs0.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/XSAwkJxMU_eVL7Gxdjn1Dr9IPIwSTp0Xcv9BIFMXqs0.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/XSAwkJxMU_eVL7Gxdjn1Dr9IPIwSTp0Xcv9BIFMXqs0.png"
+            },
+            "clanLevel": 11,
+            "attacks": 15,
+            "stars": 42,
+            "destructionPercentage": 95.33333333333333
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 15,
+            "stars": 44,
+            "destructionPercentage": 99.4
+          },
+          "warStartTime": "20250408T125633.000Z",
+          "tag": "#8PUU8J2RV",
+          "season": "2025-04",
+          "type": "cwl"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 1,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#29RYUGC8Q",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 2,
+            "duration": 124,
+            "fresh": true,
+            "defender": {
+              "tag": "#29RYUGC8Q",
+              "name": "LiveOnYourTV",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 1
+            },
+            "attack_order": 2
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#L9RGPCCL",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 27,
+            "duration": 170,
+            "fresh": true,
+            "attacker": {
+              "tag": "#L9RGPCCL",
+              "name": "Wessel",
+              "townhallLevel": 17,
+              "mapPosition": 15,
+              "opponentAttacks": 1
+            },
+            "attack_order": 27
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "preparationStartTime": "20250406T125626.000Z",
+          "startTime": "20250407T125624.000Z",
+          "endTime": "20250408T125624.000Z",
+          "clan": {
+            "tag": "#222VP8LCG",
+            "name": "OMEGA'S, LOVERS",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/QMaA9VB7hicZPVcudD3c3FhkkIeFJflHG_CTn8GgV-Q.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/QMaA9VB7hicZPVcudD3c3FhkkIeFJflHG_CTn8GgV-Q.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/QMaA9VB7hicZPVcudD3c3FhkkIeFJflHG_CTn8GgV-Q.png"
+            },
+            "clanLevel": 19,
+            "attacks": 15,
+            "stars": 33,
+            "destructionPercentage": 89.26666666666667
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 15,
+            "stars": 45,
+            "destructionPercentage": 100
+          },
+          "warStartTime": "20250407T125624.000Z",
+          "tag": "#8PURG9YVV",
+          "season": "2025-04",
+          "type": "cwl"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 1,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#9CGJR9LV0",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 144,
+            "fresh": true,
+            "defender": {
+              "tag": "#9CGJR9LV0",
+              "name": "MÂĐ彡MÒHÍT",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 1
+            },
+            "attack_order": 1
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#PVJJVY2L9",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 20,
+            "duration": 168,
+            "fresh": true,
+            "attacker": {
+              "tag": "#PVJJVY2L9",
+              "name": "সুমিত 03opEn",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 1
+            },
+            "attack_order": 20
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 20,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250406T121900.000Z",
+          "startTime": "20250407T111900.000Z",
+          "endTime": "20250408T111900.000Z",
+          "clan": {
+            "tag": "#2LJUY0000",
+            "name": "梦境",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/PNchD23ibsT90NImMJgAos7UzF-o4ZTi7iyufOGPpEM.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/PNchD23ibsT90NImMJgAos7UzF-o4ZTi7iyufOGPpEM.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/PNchD23ibsT90NImMJgAos7UzF-o4ZTi7iyufOGPpEM.png"
+            },
+            "clanLevel": 8,
+            "attacks": 23,
+            "stars": 54,
+            "destructionPercentage": 90
+          },
+          "opponent": {
+            "tag": "#9Y2UYLCL",
+            "name": "部落奇兵",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/-GZ6QInDf6WGCIT3YNs6Ht41l_432vAaauYrBu7ZFAk.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/-GZ6QInDf6WGCIT3YNs6Ht41l_432vAaauYrBu7ZFAk.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/-GZ6QInDf6WGCIT3YNs6Ht41l_432vAaauYrBu7ZFAk.png"
+            },
+            "clanLevel": 29,
+            "attacks": 27,
+            "stars": 53,
+            "destructionPercentage": 94.55
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 1,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#9QGRC2J0",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 6,
+            "duration": 112,
+            "fresh": true,
+            "defender": {
+              "tag": "#9QGRC2J0",
+              "name": "杜贺爱你",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 3
+            },
+            "attack_order": 6
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#LQQU8Q8JJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 7,
+            "duration": 136,
+            "fresh": true,
+            "defender": {
+              "tag": "#LQQU8Q8JJ",
+              "name": "lyl",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 2
+            },
+            "attack_order": 7
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#9QGRC2J0",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 3,
+            "duration": 169,
+            "fresh": true,
+            "attacker": {
+              "tag": "#9QGRC2J0",
+              "name": "杜贺爱你",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 3
+            },
+            "attack_order": 3
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "preparationStartTime": "20250405T125606.000Z",
+          "startTime": "20250406T125604.000Z",
+          "endTime": "20250407T125604.000Z",
+          "clan": {
+            "tag": "#2QG9LYUVL",
+            "name": "BK BLINDERS",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/qOJthn3mPfRRTWAetzFCjkVB32fcRftJ3pnCyuuYGKo.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/qOJthn3mPfRRTWAetzFCjkVB32fcRftJ3pnCyuuYGKo.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/qOJthn3mPfRRTWAetzFCjkVB32fcRftJ3pnCyuuYGKo.png"
+            },
+            "clanLevel": 17,
+            "attacks": 15,
+            "stars": 38,
+            "destructionPercentage": 91.26666666666667
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 15,
+            "stars": 45,
+            "destructionPercentage": 100
+          },
+          "warStartTime": "20250406T125604.000Z",
+          "tag": "#8PULU9Y8Q",
+          "season": "2025-04",
+          "type": "cwl"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 2,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#P22R9U82U",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 8,
+            "duration": 127,
+            "fresh": true,
+            "defender": {
+              "tag": "#P22R9U82U",
+              "name": "Dark_Lord",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 1
+            },
+            "attack_order": 8
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#GJL0R9RP",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 2,
+            "duration": 136,
+            "fresh": true,
+            "attacker": {
+              "tag": "#GJL0R9RP",
+              "name": "NeeKz",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 1
+            },
+            "attack_order": 2
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250404T123912.000Z",
+          "startTime": "20250405T113912.000Z",
+          "endTime": "20250406T113912.000Z",
+          "clan": {
+            "tag": "#2LJUY0000",
+            "name": "梦境",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/qj2CFvv65iiDUo8hgchejj1hj7Yyuxv82Vh7XhW5e64.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/qj2CFvv65iiDUo8hgchejj1hj7Yyuxv82Vh7XhW5e64.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/qj2CFvv65iiDUo8hgchejj1hj7Yyuxv82Vh7XhW5e64.png"
+            },
+            "clanLevel": 7,
+            "attacks": 25,
+            "stars": 45,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#89YGG9CQ",
+            "name": "TheRebellion",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/MpTRmbH3Er06M_dou8q3-Ul-y-sluu0HJFfGDbKSNlI.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/MpTRmbH3Er06M_dou8q3-Ul-y-sluu0HJFfGDbKSNlI.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/MpTRmbH3Er06M_dou8q3-Ul-y-sluu0HJFfGDbKSNlI.png"
+            },
+            "clanLevel": 24,
+            "attacks": 23,
+            "stars": 38,
+            "destructionPercentage": 89.4
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 1,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#28Y9YVGGJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 119,
+            "fresh": true,
+            "defender": {
+              "tag": "#28Y9YVGGJ",
+              "name": "Black_Orkid",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 3
+            },
+            "attack_order": 1
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#L2GGPQ0R",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 3,
+            "duration": 90,
+            "fresh": true,
+            "defender": {
+              "tag": "#L2GGPQ0R",
+              "name": "raptor99999t",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 1
+            },
+            "attack_order": 3
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#UYJ8RRC9",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 70,
+            "order": 28,
+            "duration": 126,
+            "fresh": true,
+            "attacker": {
+              "tag": "#UYJ8RRC9",
+              "name": "mac",
+              "townhallLevel": 17,
+              "mapPosition": 8,
+              "opponentAttacks": 2
+            },
+            "attack_order": 28
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "preparationStartTime": "20250403T125726.000Z",
+          "startTime": "20250404T125541.000Z",
+          "endTime": "20250405T125541.000Z",
+          "clan": {
+            "tag": "#2Y20Q8GQ8",
+            "name": "Night Clan",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/9-tE99KMs9Js_u3hyGN55RsFUE0-zP8hAsUY9DekKLY.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/9-tE99KMs9Js_u3hyGN55RsFUE0-zP8hAsUY9DekKLY.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/9-tE99KMs9Js_u3hyGN55RsFUE0-zP8hAsUY9DekKLY.png"
+            },
+            "clanLevel": 19,
+            "attacks": 4,
+            "stars": 2,
+            "destructionPercentage": 11.8
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 15,
+            "stars": 45,
+            "destructionPercentage": 100
+          },
+          "warStartTime": "20250404T125541.000Z",
+          "tag": "#8PU2G22PC",
+          "season": "2025-04",
+          "type": "cwl"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 2,
+          "opponentAttacks": 0
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#8VQPV8LVJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 136,
+            "fresh": true,
+            "defender": {
+              "tag": "#8VQPV8LVJ",
+              "name": "IYI⚡TEFO1616",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 1
+            },
+            "attack_order": 1
+          }
+        ],
+        "defenses": []
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "preparationStartTime": "20250402T121932.000Z",
+          "startTime": "20250403T125512.000Z",
+          "endTime": "20250404T125512.000Z",
+          "clan": {
+            "tag": "#90PLRLCY",
+            "name": "Справедливые",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/7L0-m7boy9MJFTET8hzixJa02noJppr54KtQgov0e-Q.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/7L0-m7boy9MJFTET8hzixJa02noJppr54KtQgov0e-Q.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/7L0-m7boy9MJFTET8hzixJa02noJppr54KtQgov0e-Q.png"
+            },
+            "clanLevel": 33,
+            "attacks": 15,
+            "stars": 40,
+            "destructionPercentage": 97.66666666666667
+          },
+          "opponent": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 15,
+            "stars": 38,
+            "destructionPercentage": 95.53333333333333
+          },
+          "warStartTime": "20250403T125512.000Z",
+          "tag": "#8PCV0LQYV",
+          "season": "2025-04",
+          "type": "cwl"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 2,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#9GJQR9GCQ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 144,
+            "fresh": true,
+            "defender": {
+              "tag": "#9GJQR9GCQ",
+              "name": "^_/Aggressor\\_^",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 1
+            },
+            "attack_order": 1
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#UQ8RQLYC",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 96,
+            "order": 24,
+            "duration": 180,
+            "fresh": true,
+            "attacker": {
+              "tag": "#UQ8RQLYC",
+              "name": "SafekRus",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 1
+            },
+            "attack_order": 24
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 15,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250331T131951.000Z",
+          "startTime": "20250401T121951.000Z",
+          "endTime": "20250402T121951.000Z",
+          "clan": {
+            "tag": "#2LJUY0000",
+            "name": "梦境",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/qj2CFvv65iiDUo8hgchejj1hj7Yyuxv82Vh7XhW5e64.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/qj2CFvv65iiDUo8hgchejj1hj7Yyuxv82Vh7XhW5e64.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/qj2CFvv65iiDUo8hgchejj1hj7Yyuxv82Vh7XhW5e64.png"
+            },
+            "clanLevel": 7,
+            "attacks": 26,
+            "stars": 45,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#YJ8ULUP9",
+            "name": "อยู่ต่อเลยไหม?",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/RMAtEW0fr-OPg4xI_oh_HU2RpImS99IrJiK3IjILs9A.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/RMAtEW0fr-OPg4xI_oh_HU2RpImS99IrJiK3IjILs9A.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/RMAtEW0fr-OPg4xI_oh_HU2RpImS99IrJiK3IjILs9A.png"
+            },
+            "clanLevel": 28,
+            "attacks": 24,
+            "stars": 37,
+            "destructionPercentage": 90.6
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#2U8JYL2JJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 4,
+            "duration": 128,
+            "fresh": true,
+            "defender": {
+              "tag": "#2U8JYL2JJ",
+              "name": "THE SHAN",
+              "townhallLevel": 17,
+              "mapPosition": 1,
+              "opponentAttacks": 5
+            },
+            "attack_order": 4
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#22J200JGV",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 137,
+            "fresh": true,
+            "defender": {
+              "tag": "#22J200JGV",
+              "name": "$$ ballclub $$",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 4
+            },
+            "attack_order": 5
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#22J200JGV",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 89,
+            "order": 29,
+            "duration": 171,
+            "fresh": true,
+            "attacker": {
+              "tag": "#22J200JGV",
+              "name": "$$ ballclub $$",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 4
+            },
+            "attack_order": 29
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 30,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250329T134000.000Z",
+          "startTime": "20250330T124000.000Z",
+          "endTime": "20250331T124000.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 53,
+            "stars": 90,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#2LGPCP2G2",
+            "name": "Đụng Là Rụng",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/lh5138F8tqr755o4PEhvhwnDuJTw4x_eEYCbV9ZU56E.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/lh5138F8tqr755o4PEhvhwnDuJTw4x_eEYCbV9ZU56E.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/lh5138F8tqr755o4PEhvhwnDuJTw4x_eEYCbV9ZU56E.png"
+            },
+            "clanLevel": 14,
+            "attacks": 50,
+            "stars": 82,
+            "destructionPercentage": 97.4
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 2
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#L0VLJ0P0G",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 16,
+            "duration": 144,
+            "fresh": true,
+            "defender": {
+              "tag": "#L0VLJ0P0G",
+              "name": "YTB HaZhalou",
+              "townhallLevel": 17,
+              "mapPosition": 7,
+              "opponentAttacks": 1
+            },
+            "attack_order": 16
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#Q2JRRYV29",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 19,
+            "duration": 117,
+            "fresh": true,
+            "defender": {
+              "tag": "#Q2JRRYV29",
+              "name": "TŨN TINH TẾ",
+              "townhallLevel": 17,
+              "mapPosition": 10,
+              "opponentAttacks": 1
+            },
+            "attack_order": 19
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#899C2CVL9",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 85,
+            "order": 95,
+            "duration": 119,
+            "fresh": false,
+            "attacker": {
+              "tag": "#899C2CVL9",
+              "name": "1ST❤️Bố Cubin❤️",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 2
+            },
+            "attack_order": 95
+          },
+          {
+            "attackerTag": "#Q2JRRYV29",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 64,
+            "order": 1,
+            "duration": 131,
+            "fresh": true,
+            "attacker": {
+              "tag": "#Q2JRRYV29",
+              "name": "TŨN TINH TẾ",
+              "townhallLevel": 17,
+              "mapPosition": 10,
+              "opponentAttacks": 1
+            },
+            "attack_order": 1
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 30,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250327T125604.000Z",
+          "startTime": "20250328T130303.000Z",
+          "endTime": "20250329T130303.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 55,
+            "stars": 90,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#YGVJVVQ9",
+            "name": "镜花水月-女神营1部",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/14mWwD6mGyvQcBj8GThLrujlclEWxi9fKiwgG65cEy8.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/14mWwD6mGyvQcBj8GThLrujlclEWxi9fKiwgG65cEy8.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/14mWwD6mGyvQcBj8GThLrujlclEWxi9fKiwgG65cEy8.png"
+            },
+            "clanLevel": 30,
+            "attacks": 54,
+            "stars": 86,
+            "destructionPercentage": 99.166664
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 4
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#98GP2JYG0",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 147,
+            "fresh": false,
+            "defender": {
+              "tag": "#98GP2JYG0",
+              "name": "Cappuccino",
+              "townhallLevel": 17,
+              "mapPosition": 4,
+              "opponentAttacks": 6
+            },
+            "attack_order": 5
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#2VQLGG9C",
+            "stars": 2,
+            "destructionPercentage": 75,
+            "order": 8,
+            "duration": 127,
+            "fresh": true,
+            "defender": {
+              "tag": "#2VQLGG9C",
+              "name": "☠️Rick☠️",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 9
+            },
+            "attack_order": 8
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#G02C9UULL",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 91,
+            "order": 108,
+            "duration": 112,
+            "fresh": false,
+            "attacker": {
+              "tag": "#G02C9UULL",
+              "name": "咒雨",
+              "townhallLevel": 17,
+              "mapPosition": 11,
+              "opponentAttacks": 1
+            },
+            "attack_order": 108
+          },
+          {
+            "attackerTag": "#RJQJQRQG",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 93,
+            "order": 103,
+            "duration": 145,
+            "fresh": false,
+            "attacker": {
+              "tag": "#RJQJQRQG",
+              "name": "神雕侠侣",
+              "townhallLevel": 17,
+              "mapPosition": 22,
+              "opponentAttacks": 1
+            },
+            "attack_order": 103
+          },
+          {
+            "attackerTag": "#2GGRV0VRP",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 81,
+            "order": 87,
+            "duration": 129,
+            "fresh": false,
+            "attacker": {
+              "tag": "#2GGRV0VRP",
+              "name": "Super RION",
+              "townhallLevel": 17,
+              "mapPosition": 8,
+              "opponentAttacks": 1
+            },
+            "attack_order": 87
+          },
+          {
+            "attackerTag": "#8RJYPCL2G",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 93,
+            "order": 68,
+            "duration": 140,
+            "fresh": true,
+            "attacker": {
+              "tag": "#8RJYPCL2G",
+              "name": "Flash",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 3
+            },
+            "attack_order": 68
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 30,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250325T130323.000Z",
+          "startTime": "20250326T120323.000Z",
+          "endTime": "20250327T123542.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 52,
+            "stars": 90,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#V9QYLYL0",
+            "name": "ae mien tay 113",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/J4j1cPZxxKxx8atNgwuXlCTWOBq3o7mF_0JEDy7fTsk.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/J4j1cPZxxKxx8atNgwuXlCTWOBq3o7mF_0JEDy7fTsk.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/J4j1cPZxxKxx8atNgwuXlCTWOBq3o7mF_0JEDy7fTsk.png"
+            },
+            "clanLevel": 28,
+            "attacks": 44,
+            "stars": 71,
+            "destructionPercentage": 83.26667
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 2
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#YQJR0RGJ8",
+            "stars": 1,
+            "destructionPercentage": 9,
+            "order": 85,
+            "duration": 9,
+            "fresh": false,
+            "defender": {
+              "tag": "#YQJR0RGJ8",
+              "name": "Hung",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 9
+            },
+            "attack_order": 85
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#82L8QVJL",
+            "stars": 1,
+            "destructionPercentage": 12,
+            "order": 86,
+            "duration": 14,
+            "fresh": false,
+            "defender": {
+              "tag": "#82L8QVJL",
+              "name": "Mr Đat",
+              "townhallLevel": 17,
+              "mapPosition": 6,
+              "opponentAttacks": 8
+            },
+            "attack_order": 86
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#LVCQRC0QP",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 60,
+            "order": 73,
+            "duration": 71,
+            "fresh": false,
+            "attacker": {
+              "tag": "#LVCQRC0QP",
+              "name": "LINH HUỆ",
+              "townhallLevel": 17,
+              "mapPosition": 15,
+              "opponentAttacks": 1
+            },
+            "attack_order": 73
+          },
+          {
+            "attackerTag": "#YQJR0RGJ8",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 83,
+            "order": 38,
+            "duration": 161,
+            "fresh": true,
+            "attacker": {
+              "tag": "#YQJR0RGJ8",
+              "name": "Hung",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 9
+            },
+            "attack_order": 38
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 30,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250321T122849.000Z",
+          "startTime": "20250322T112849.000Z",
+          "endTime": "20250323T112849.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 52,
+            "stars": 90,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#9UUL228C",
+            "name": "JEJU",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/EPZTd6nDbQxzEGuHSEGFOIOsGp3APtGofFUbQirsZ78.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/EPZTd6nDbQxzEGuHSEGFOIOsGp3APtGofFUbQirsZ78.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/EPZTd6nDbQxzEGuHSEGFOIOsGp3APtGofFUbQirsZ78.png"
+            },
+            "clanLevel": 30,
+            "attacks": 46,
+            "stars": 78,
+            "destructionPercentage": 91.86667
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 2
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#28CPY8V8R",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 4,
+            "duration": 164,
+            "fresh": true,
+            "defender": {
+              "tag": "#28CPY8V8R",
+              "name": "스타트",
+              "townhallLevel": 17,
+              "mapPosition": 4,
+              "opponentAttacks": 1
+            },
+            "attack_order": 4
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#2RYLGYCJ9",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 6,
+            "duration": 144,
+            "fresh": true,
+            "defender": {
+              "tag": "#2RYLGYCJ9",
+              "name": "드라고",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 7
+            },
+            "attack_order": 6
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#2RYLGYCJ9",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 94,
+            "order": 94,
+            "duration": 180,
+            "fresh": false,
+            "attacker": {
+              "tag": "#2RYLGYCJ9",
+              "name": "드라고",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 7
+            },
+            "attack_order": 94
+          },
+          {
+            "attackerTag": "#PVQ8R2CJ2",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 2,
+            "destructionPercentage": 88,
+            "order": 92,
+            "duration": 180,
+            "fresh": true,
+            "attacker": {
+              "tag": "#PVQ8R2CJ2",
+              "name": "앤드",
+              "townhallLevel": 17,
+              "mapPosition": 6,
+              "opponentAttacks": 1
+            },
+            "attack_order": 92
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 35,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250319T130538.000Z",
+          "startTime": "20250320T120538.000Z",
+          "endTime": "20250321T120538.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 64,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#2Q2Y9QPUQ",
+            "name": "AEVN CHAMPION",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/7OKZDHWRHRe-a4VPbtb7pFmwxFej8p0-OvcwdD9UpKo.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/7OKZDHWRHRe-a4VPbtb7pFmwxFej8p0-OvcwdD9UpKo.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/7OKZDHWRHRe-a4VPbtb7pFmwxFej8p0-OvcwdD9UpKo.png"
+            },
+            "clanLevel": 22,
+            "attacks": 70,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 2
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#882VRYVY9",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 32,
+            "duration": 149,
+            "fresh": false,
+            "defender": {
+              "tag": "#882VRYVY9",
+              "name": "❤Nại Hà❤",
+              "townhallLevel": 17,
+              "mapPosition": 6,
+              "opponentAttacks": 2
+            },
+            "attack_order": 32
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#8GLGQYRQ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 37,
+            "duration": 143,
+            "fresh": false,
+            "defender": {
+              "tag": "#8GLGQYRQ",
+              "name": "Trần Bình",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 2
+            },
+            "attack_order": 37
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#2UQ9RLQVP",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 75,
+            "duration": 133,
+            "fresh": false,
+            "attacker": {
+              "tag": "#2UQ9RLQVP",
+              "name": "XYLITOL",
+              "townhallLevel": 17,
+              "mapPosition": 18,
+              "opponentAttacks": 2
+            },
+            "attack_order": 75
+          },
+          {
+            "attackerTag": "#YYQJ09Q8",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 130,
+            "fresh": true,
+            "attacker": {
+              "tag": "#YYQJ09Q8",
+              "name": "Thế À",
+              "townhallLevel": 17,
+              "mapPosition": 2,
+              "opponentAttacks": 3
+            },
+            "attack_order": 1
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 35,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250317T131705.000Z",
+          "startTime": "20250318T121705.000Z",
+          "endTime": "20250319T121705.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 60,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#GQVRLJUQ",
+            "name": "自由奔放",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/wzO9NyM2A0s-dwj4WMdoM1ItAUeoDlwjx4n6s50DWF8.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/wzO9NyM2A0s-dwj4WMdoM1ItAUeoDlwjx4n6s50DWF8.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/wzO9NyM2A0s-dwj4WMdoM1ItAUeoDlwjx4n6s50DWF8.png"
+            },
+            "clanLevel": 30,
+            "attacks": 66,
+            "stars": 105,
+            "destructionPercentage": 100
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#2L8PCP9PG",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 15,
+            "duration": 136,
+            "fresh": true,
+            "defender": {
+              "tag": "#2L8PCP9PG",
+              "name": "MAD_WOLF",
+              "townhallLevel": 17,
+              "mapPosition": 6,
+              "opponentAttacks": 1
+            },
+            "attack_order": 15
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#YRUJPJRR2",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 22,
+            "duration": 138,
+            "fresh": false,
+            "defender": {
+              "tag": "#YRUJPJRR2",
+              "name": "むーちゃん@パンツ消えた",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 2
+            },
+            "attack_order": 22
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#PRGQ9QYQR",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 23,
+            "duration": 121,
+            "fresh": true,
+            "attacker": {
+              "tag": "#PRGQ9QYQR",
+              "name": "stmos",
+              "townhallLevel": 17,
+              "mapPosition": 13,
+              "opponentAttacks": 1
+            },
+            "attack_order": 23
+          }
+        ]
+      },
+      {
+        "war_data": {
+          "state": "warEnded",
+          "teamSize": 40,
+          "attacksPerMember": 2,
+          "battleModifier": "none",
+          "preparationStartTime": "20250315T130144.000Z",
+          "startTime": "20250316T120144.000Z",
+          "endTime": "20250317T120144.000Z",
+          "clan": {
+            "tag": "#2QULJC9CU",
+            "name": "司法强拆",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/bxUx_QwnDsVLDCSfgmZYMYB9PzNA5tL37FNPKRkRZvE.png"
+            },
+            "clanLevel": 20,
+            "attacks": 69,
+            "stars": 120,
+            "destructionPercentage": 100
+          },
+          "opponent": {
+            "tag": "#UGUJQUUQ",
+            "name": "★-Team Work -★",
+            "badgeUrls": {
+              "small": "https://api-assets.clashofclans.com/badges/70/qw0kHwhUKyxGvOQJlvvfBKYNa8xvlRhD4pKt6NO37h0.png",
+              "large": "https://api-assets.clashofclans.com/badges/512/qw0kHwhUKyxGvOQJlvvfBKYNa8xvlRhD4pKt6NO37h0.png",
+              "medium": "https://api-assets.clashofclans.com/badges/200/qw0kHwhUKyxGvOQJlvvfBKYNa8xvlRhD4pKt6NO37h0.png"
+            },
+            "clanLevel": 16,
+            "attacks": 71,
+            "stars": 120,
+            "destructionPercentage": 100
+          },
+          "type": "random"
+        },
+        "member_data": {
+          "tag": "#2RJCRLQLP",
+          "name": "JendralSudirman",
+          "townhallLevel": 17,
+          "mapPosition": 3,
+          "opponentAttacks": 1
+        },
+        "attacks": [
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#PR90CJLLL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 17,
+            "duration": 151,
+            "fresh": false,
+            "defender": {
+              "tag": "#PR90CJLLL",
+              "name": "Heherson",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 3
+            },
+            "attack_order": 17
+          },
+          {
+            "attackerTag": "#2RJCRLQLP",
+            "defenderTag": "#28U2Q8YQC",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 18,
+            "duration": 141,
+            "fresh": false,
+            "defender": {
+              "tag": "#28U2Q8YQC",
+              "name": "Alpha Centauri",
+              "townhallLevel": 17,
+              "mapPosition": 5,
+              "opponentAttacks": 2
+            },
+            "attack_order": 18
+          }
+        ],
+        "defenses": [
+          {
+            "attackerTag": "#PR90CJLLL",
+            "defenderTag": "#2RJCRLQLP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 26,
+            "duration": 161,
+            "fresh": true,
+            "attacker": {
+              "tag": "#PR90CJLLL",
+              "name": "Heherson",
+              "townhallLevel": 17,
+              "mapPosition": 3,
+              "opponentAttacks": 3
+            },
+            "attack_order": 26
+          }
+        ]
+      }
+    ]
+  }

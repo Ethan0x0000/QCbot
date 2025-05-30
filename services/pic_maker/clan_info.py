@@ -555,6 +555,28 @@ def generate_html(data):
         background-color: #ffc107;
         border-radius: 1px;
     }
+    .server-tag {
+        font-size: 12px;
+        color: #fff;
+        background: linear-gradient(135deg, #4caf50, #45a049);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: 600;
+        box-shadow: 0 2px 4px rgba(76, 175, 80, 0.2);
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        margin-left: auto; /* 使用margin-left: auto将标签推到右侧 */
+    }
+    .server-tag::before {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+    }
     .info-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -984,7 +1006,8 @@ def generate_html(data):
                                     <line x1="12" y1="16" x2="12.01" y2="16"></line>
                                 </svg>
                             </span>
-                            基本信息
+                            <span>基本信息</span>
+                            <span class="server-tag">国际服</span>
                         </div>
                         <div class="info-grid">
                             <div class="info-item">

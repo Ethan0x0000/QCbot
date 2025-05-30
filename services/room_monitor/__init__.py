@@ -17,7 +17,7 @@ class RoomMonitor:
         self.clan_tag_to_room = {}  # 部落标签 -> room_id
         
         # 存储路径
-        self.storage_dir = Path(os.getcwd()) / "storage" / "room_monitor"
+        self.storage_dir = Path(os.getcwd()).parent.parent.parent / "storage" / "room_monitor"
         self.user_tags_file = self.storage_dir / "user_tags.json"
         self.clan_tags_file = self.storage_dir / "clan_tags.json"
         

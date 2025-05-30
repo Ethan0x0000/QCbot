@@ -18,7 +18,7 @@ class APIRouter:
     BASE_URL_CK = "https://api.clashk.ing"
     BASE_URL_COC = "https://api.clashofclans.com/v1"
 
-    def __init__(self, timeout: int = None):
+    def __init__(self, timeout: Optional[int] = None):
         """
         初始化 API Router 客户端
         
@@ -58,8 +58,7 @@ class APIRouter:
             case "player_legend":
                 return f"{self.BASE_URL_CK}/player/{quote(params['tag'])}/legends?season={quote(params['season'])}", 'ck'
             case "player_search":
-                if params['name']:
-                    url = f"{self.BASE_URL_CK}/player/full-search/{quote(params['name'])}?limit=25"
+                url = f"{self.BASE_URL_CK}/player/full-search/{quote(params['name'])}?limit=25"
                 if params['league']:
                     url = f"{url}&league={quote(params['league'])}"
                 if params['townhall']:
@@ -69,14 +68,26 @@ class APIRouter:
                 if params['trophies']:
                     url = f"{url}&trophies={quote(params['trophies'])}"
                 return url, 'ck'
+            case "player_warhits":
+                return f"{self.BASE_URL_CK}/player/{quote(params['tag'])}/warhits?limit=100", 'ck'
+            case "player_todo":
+                if params['tag']:
+                    return f"{self.BASE_URL_CK}/player/{quote(params['tag'])}/todo", 'ck'
+                elif params['tags']:
+                    url = f"{self.BASE_URL_CK}/player?tags"
+                    for tag in params['tags']:
+                        url = f"{url}/{quote(tag)}"
+                    return url, 'ck'
             case "clan_info":
                 return f"{self.BASE_URL_COC}/clans/{quote(params['tag'])}", 'coc'
+            case "clan_members":
+                return f"{self.BASE_URL_COC}/clans/{quote(params['tag'])}/members", 'coc'
             case "clan_war":
                 return f"{self.BASE_URL_CK}/timeline/{quote(params['tag'])}", 'ck'
             case "clan_leagues":
                 return f"{self.BASE_URL_CK}/cwl/{quote(params['tag'])}/{params['season']}", 'ck'
-            case "capital_logs":
-                return f"{self.BASE_URL_CK}/capital/{quote(params['tag'])}?limit=1", 'ck'
+            case "clan_raids":
+                return f"{self.BASE_URL_COC}/clans/{quote(params['tag'])}/capitalraidseasons?limit=1", 'coc'
             case "list_season":
                 return f"{self.BASE_URL_CK}/list/seasons?last=12", 'ck'
             case _:
@@ -175,7 +186,7 @@ class APIRouter:
                     # 如果失败，尝试检测编码
                     encoding = chardet.detect(content)['encoding']
                     try:
-                        html_content = content.decode(encoding)
+                        html_content = content.decode(encoding if encoding else 'utf-8')
                     except:
                         # 如果仍然失败，使用replace模式
                         html_content = content.decode('utf-8', errors='replace')
